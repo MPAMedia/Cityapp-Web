@@ -1,0 +1,384 @@
+#Configuration
+config:
+    name: Español
+    version: 1.0
+
+#key #value
+Hello : Hola
+Welcome : Bienvenido
+
+
+#Compaign
+Alert_compaign : Notificaciones de Eventos, ofertas o nuevas tiendas a tus usuarios cercanos.
+Type campaign : Tipo de campaña
+No Campaigns : No hay campañas
+Offer is expired : La oferta ha caducado
+That offer will expired in : Esa oferta expira en
+Edit offer : Editar Oferta
+This campaign will be displayed to %s customers within %s KM : Esta campaña será mostrada a %1$s clientes con un radio de %2$s KM
+Are you sur to duplicate this campaign ? : ¿Estás seguro de duplicar esta camapaña?
+
+
+
+#DASHBAORD
+Total_Stores : Total Negocios
+Total_Events : Total Eventos
+Total_Customers : Total Clientes
+Total_Campaigns : Total Campañas
+Overview: General
+Recently_Added : Agregados Recientemente
+Last_reviews : Últimos comentarios
+View_all_stores : Ver todos los negocios
+
+#Login page
+Login : Entrar
+Login_error : Error de inicio
+Error : Error
+Canceled : Cancelado
+Completed : Completado
+FORGET PASSWORD : RECUPERAR CONTRASEÑA
+dont_have_account : ¿No tienes cuenta ?
+Forgot_Password : Recuperar Contraseña
+Login_seccessfully : te has conectado correctamente
+
+
+
+#Menu items
+Home : INICIO
+Offers : Ofertas
+Manage Stores : Administrar Tiendas
+Manage Events : Administrar Eventos
+Manage Customers : Administrar Clientes
+Categories : Categorias
+Compaigns : Compañas
+Application : Aplicacion
+Events : Eventos
+Messages : Mensajes
+Add_new : Agregar Nuevo
+All_stores : Todos los negocios
+All Offers : Todas las ofertas
+My Offers : Mis Ofertas
+My_stores : Mis Tiendas
+All Campaigns : Todas las Campañas
+My campaigns : Mis Campañas
+Pushed : Impulsadas
+Completed : Completadas
+Campaigns (No-valid) : Campañas (No-validas)
+Campaigns : Campañas
+All Campaigns : Todas las Campañas
+My campaigns : Mis Campañas
+Pushed : Impulsadas
+Completed : Completadas
+Campaigns (No-valid) : Campañas (No-validas)
+
+#Frontend App
+Description_app : Gente De Cordoba es una aplicacion innovadora para buscar negocios con un sistema inteligente que te ayuda a buscar en tu area facilmente. Tiene un potente buscador de negocios que te permite administrar el directorio comercial, categorias, notificaciones, dueños de negocios, eventos y ofertas
+Setup_easy_desc : No necesitas codificar, facil y rapida configuracion usando formularios de configuracion
+Advanced_setting_desc : Configuracion simplificada, control completo de la app ( logo, nombre , limitaciones de acceso , radio , notificacion , Monedas ... )
+Make_business_desc : Incrementa tu conversion de negocios con esta app
+Beautiful_ui : Hermosas tarjetas , animaciones y notificaciones que muestran lo importante a tu alrededor
+Cutomize_app_desc : No requiere ninguna experiencia programando , esta app es facil de configurar y personalizar .
+Chat_desc : Puedes chatear con tus vecinos y con los dueños de los negocios sin limite , solo entra a la app y activa tu GPS y veras a todas las personas importantes.
+Gps_des : Gente De Córdoba esta basado en tu posición para enseñarte todas las cosas importantes a tu alrededor , así que no olvides activar tu GPS antes de usar la app .
+Keep_it_controle : El tablero te da visibilidad completa del uso de la aplicación. Graficos y tablas estan presentes para darte mayor trazabilidad .
+Push_offers : Envía notificaciones Push a tus clientes con un solo click para informar nuevas ofertas cerca de ellos, tambien puedes organizar tu contenido en una campaña y enviarla directamente a tus usuarios.
+Manage_customers : Como administrador tienes el derecho a administrar a tus clientes y sus negocios, dependiendo del tipo de suscripcion que ofertes, puedes restringir los derechos de los usuarios.
+Support_multi_language : Puedes cambiar a tu idioma favorito con un simple click.
+Advanced_dashboard_desc : Mantente siempre informado acerca de tus soluciones, gracias a su hermoso tablero.
+Nearby_stores_features : Gente de Córdoba esta construido con una exacta geo localización que permite a tus clientes trazar una ruta y llegar a los negocios de la manera mas facil.
+Contact_us_desc : Proveemos un rapido y redituable soporte a nuestros clientes, no importa si es una pregunta, problemas, personalizacion y solicitus especiales. Si necesitas ayuda con la instalacion, solo mandanos un mensaje por medio de este formulario.
+you_dont_have_permission: No tienes permiso para correr esta query, por favor trata despues!
+Are you sure?: ¿Estas seguro?
+Are you sure you want to delete it : ¿Estas seguro que desea borrarlo?
+
+
+#configuration
+Customer_can_publish_own_event_auto: Los clientes pueden publicar su propio evento sin la confirmacion del admin
+Number_campaigns_max_monthly: Numero de campañas mensuales max
+Number items per page: Articulos permitidos por pagina
+Number stores per page: Tiendas permitidas por pagina
+Download app: Descargar app
+Dashboard Color : Color del Tablero
+Upload limitation : Limitacion de subidas
+Back-office_logo: Logo tablero
+Crypto_key: Crypto key
+Enable Offer: Activar oferta
+Enable Event: Activar evento
+Default_language: Idiomar por defecto
+User subscription : Suscripcion del usuario
+Campaign config : Configurar campaña
+Welcome message : Mensaje de Bienvenida
+Optional field : Campo opcional
+Dashboard analytics : Tablero de Analisis
+Enable Messages From Dashboard : Activar Mensajes desde el Tablero
+Allow dashboard messenger to owners : Permitir el tablero de mensajes para los dueños
+Enable chat with firebase : Activar el chat con firebase
+Should be enabled from app client : Debe ser activado desde el cliente de la app
+Number_max_of_stores : Negocios permitidos
+Number_events_max_monthly : Eventos permitidos por mes
+Number campaigns max monthly : campañas permitidas por mes
+Number_offers_max_monthly : Ofertas permitidas por mes
+Email_verificaion : Verificacion de Email
+User_config : Configuracion de usuario
+App_name : Nombre de la App
+Default_email : Email por defecto
+Back-office_ logo : logo Regresar-Oficina
+Dashborad_config : Configurar Tablero
+Number_items_per_page : Numero de articulos por pagina
+Copy_this_key_your_android_res : Copia esta llave y en tu recurso de android "app_config.xml"
+Number_stores_per_page : Numero de negocios por pagina
+Enable_store : Activar Negocios
+Customer_can_publish_own_store_auto : El cliente puede publicar su propio negocio sin la confirmacion del admin
+Default_timezone : Zona horaria por defecto
+Default _anguage : Idioma por defecto
+Add_new_currency : Agregar nueva moneda
+Language : Idioma
+Without_validation_by_admin : Sin valida del admin
+Push_campaign_auto : Auto campañas Push
+Target_raduis : Diametro del Targeting (km)
+Number_max_pushes_per_campaign : Notificaciones permitidas por campaña
+Use_campaign_with_crontab : Usar campaña con crontab
+you_can_push_10_campaigns_for_every_10_minutes : Puedes enviar 10 campañas cada 10 minutos
+Add_this_url_in_cronTab_in_your_cpanel : Agrega esta url en cronTab en tu cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : Notificaciones permitidas por campaña con crontab por cada corrida
+Messages Config : Configurar Mensajes
+
+#Messages
+We could not find the page you were looking for : No pudimos localizar la página que estás buscando
+Meanwhile, you may : Mientras tanto, puedes
+Meanwhile, you may : Mientras tanto, puedes
+return to the home page : regresar a la página de inicio
+or try using the search form : o trata usando el siguiente formulario
+Are you sure that you want to delete this store : ¿Estás seguro que deseas borrar este negocio?
+Are you sure that you want to delete this Event : ¿Estás seguro que deseas borrar este evento?
+Are you sure that you want to delete this user : ¿Estás seguor que deseas borrar a este usuario?
+The installation folder represents a danger : El folder de instalacion representa un peligro
+Please remove install directory : Por favor elimina el folder de instalacion
+Account without verification! : Cuenta sin verificacion!
+We've sent mail verification to your mailbox. : Te hemos enviado un email de verificación a tu email.
+Delete_confirmation : ¿Estás seguro que deseas borrar este negocio?!!
+
+
+
+#Global
+Telephone : Teléfono
+Action : Accion
+Rating : Calificación
+Allow : Permitir
+Deny : Prohibir
+Your account has created : Tu cuenta ha sido creada
+Success : Bien
+No data found : No se encontraron datos
+Enter your email : Escribe tu email
+Title : Título
+Reset : Resetear
+Connect : Conectar
+Pending : Pendiente
+App name : Nombre de la App
+Symbol : Symbolo
+Cancel : Cancelar
+Format : Formato
+Name : Nombre
+config_sidebar: Configuración
+MENU: MENU
+All Events: Todos los eventos
+My events: Mis eventos
+All Compaigns: Todas las campañas
+My Compaigns: Mis campañas
+Search : Buscar
+Enabled: Activado
+Create your store: Crear tu negocio
+Detail: Detalles
+Add new offer: Agregar nueva oferta
+Date Begin: Fecha de Inicio
+Date End: Fecha Final
+Offer: Oferta
+Published: Publicado
+Finished: Terminado
+Disabled: Desactivado
+Create new campaign: Crear nueva campaña
+Select campaign type: Seleccionar tipo de campaña
+Select event: Seleccionar evento
+Select offer: Seleccionar oferta
+Push: Push
+Duplicate: Duplicar
+Create: Crear
+Role Type : Tipo de rol
+View all stores: Ver todos los negocios
+Owner: Dueño
+Store: Negocio
+Campaigns : Campañas
+Send password : Enviar contraseña
+We've sent new password to your mailbox : Te hemos enviado una nueva contraseña a tu email
+Profile : Perfil
+Logout : Salir
+Add : Agregar
+Toggle navigation : Toggle navigation
+Save : Guardar
+Currencies : Monedas
+Default_currency : Moneda por defecto
+signup : registrarse
+Reviews : Reseñas
+Stores : Negocios
+Store : Negocio
+Confirm : Confirmar
+Delete : Borrar
+Close : Cerrar
+Update_your_store : Actualizar Negocio
+Drag the marker to get the exact position: Arrastra el marcador para obtener la posición exacta
+Add_new_offer : Agregar nueva oferta
+Create : Crear
+Clear : Limpiar
+Add new category : Agregar nueva categoria
+Edit Category: Editar Categoria
+Category name : Nombre de la categoria
+Offer percent : Porcentaje de oferta
+Offer price by : Precio de oferta por
+Date end : Fecha Final
+Date begin : Fecha Inicio
+Description : Descripcion
+Offers : Ofertas
+Targeting estimation : Estimacion de Targeting
+Radius of : Radio de
+Km you will target : Km de tu target
+nearby guests : invitados cercanos
+Will end at : Terminará a las
+No Offers : No hay ofertas
+Events : Eventos
+Create Event : Crear Evento
+Name : Nombre
+Image: Imagen
+Images : Imagenes
+Event name : Nombre del Evento
+Event : Evento
+Address : Dirección
+Status : Estado
+Username : Usuario
+Email : Email
+WebSite : Sitio Web
+Access Role : Rol de Acceso
+Status : Estado
+Customers : Clientes
+Type : Tipo
+Login : Entrar
+Last visited : Ult. Visita
+No-Confirmed : No Confirmado
+Confirmed : Confirmado
+Admin : Admin
+Owner : Dueño
+Customer : Cliente
+Select store : Seleccionar Negocio
+Number of stores : Numero de negocios
+Create new User : Crear nuevo usuario
+Create new : Crear nuevo
+Confirm Password : Confirmar contraseña
+Password : Contraseña
+Phone Number : Numero Teléfono
+Number of events monthly : Numero de eventos mensuales
+Campaigns monthly : numero de camapañas mensuales
+Number of offers monthly : Numero de ofertas mensuales
+Note : Nota
+Confirm : Confirmar
+Store Name : Nombre del Negocio
+Category : Categoria
+Status : Estado
+User configuration: Configuracion del usuario
+setup_successful : Configuración exitosa
+have_already_account : Ya tienes una cuenta
+Enter : Escribir
+
+
+
+
+#Form validation messages
+Access denied : Acesso denegado
+Sorry you don't have permission to do it : Lo sentimos, no tienes permiso para hacer eso
+User not created !! : Usuario no creado !!
+You don't have an account . could you please create it !! : No tienes una cuenta. Podrías crearla por favor !!
+Store already exist : El negocio ya existe
+Login invalid : Inicio Invalido
+Empty login : Inicio Vacío
+Empty password : Contraseña Vacía
+Check your confirm password : Revisa tu confirmación de contraseña
+Sorry your account is locked !! : Lo sentimos, tu cuenta esta bloqueada !!
+Auth error : Error de Autor
+user not found : usuario no encontrado
+Username is invalid or already exist! : Usuario invalido o ya existe!
+This name is already exist : Este nombre ya existe
+username is empty : usurio vacío
+Empty Address : Dirección Vacía
+User not logged in : Usuario no logueado
+Your mail is not valid : Tu email no es valido
+Your mail is empty : Tu email esta vacío
+Miss authentication to access this page : Falta autentificación para acceder a esta página
+this username or email is already exist : este usuario o email ya existe
+You dont have the access to delete this post : No tienes acceso a borrar esta publicación
+user not selected : usuario no seleccionado
+username field is empty : el campo usuario esta vacío
+username field is invalid : el campo usuario es invalido
+forgot password : recuperar contraseña
+missing mac address : falta la dirección mac
+Invalid mac_address : mac_address Invalida
+Store_id is messing : Falta Store_id
+Oops! Page not found : Oops! Página no encontrada
+Store name is empty : El nombre del negocio está vacío
+Store name is not valid : El nombre del negocio no es valido
+Store address is empty : La dirección del negocio está vacía
+Phone number is empty !! : Teléfono Vacío !!
+Phone number is invalid !! : Teléfono Invalido !!
+store already : negocio ya
+Category is not set : Categoria no configurada
+Store not created !! : Negocio no creado !!
+location not found !! : ubicación no encontrada !!
+Store not specified !! : Negocio no especificado !!
+You should delete all stores from this category !! : Debes borrar todos los negocios de esta categoria !!
+Category not found !! : Categoria no encontrada !!
+Category is empty !! : La categoria esta vacía !!
+Category name should no be empty !! : El nombre de la categoria no debe estar vacío !!
+Invalid event name : Nombre de evento invalido
+Invalid description : Descripcion invalida
+description is empty : descripcion vacia
+Invalid phone number : Teléfono invalido
+Address is empty : Dirección Vacía
+Name is empty : Nombre Vacío
+date begin format not valid ! : fecha de inicio no valida !
+date end format not valid ! : formato de fecha final no valido !
+Enter a valid URL !! : Escribe una URL valida !!
+your position is not found ! : no se encontro tu posición !
+This name is already exist !! : Este nombre ya existe !!
+event not created !! : evento no creado !!
+event not found !! : evento no encontrado !!
+Event not specified !! : Evento no especificado !!
+no message to send : no hay mensaje a enviar
+This operation is denied in demo mode : Esta operación esta prohibida en el modo demo
+You don't have permission to do it! : No tienes permisos para hacerlo!
+You have exceeded the maximum number of events : Has excedido el numero maximo de eventos
+You have exceeded the maximum number of campaigns : Has excedido el numero maximo de campañas
+You have exceeded the maximum number of stores : Has excedido el numero maximo de negocios
+Status not found : Estado no encontrado
+This currency is already exist : Esta moneda ya existe
+Please_select_store : Por favor selecciona un negocio
+mail_verification : verificación de email
+Type is not valid : El tipo no es valido
+This currency is already exist : Esta moneda ya existe
+Campaign name is empty : El nombre de la campaña esta vacío
+Something wrong : Algo salio mal
+Register id errors : Id de Registro de errores
+Date of begin is not valid : La fecha de inicio no es valida
+Offer id is messing : Falta el id de Oferta
+Store id is not valid : El id del negocio no es valido
+Password is not valid : La contraseña no es valida
+Token isn t valid : El Token no es valido
+The password must be at least 6 characters : La contraseña debe contener al menos 6 caracteres
+Reset error : Reset error
+Your login not exist or you have exceeded the limit of sending : No existe tu inicio o has excedido el limite de envios
+Error (SenderId isn't valid!) : Error (SenderId no es valido!)
+login or password are not valid : inicio o contraseña no validos
+Name field is empty : El campo del nombre esta vacío
+Your email address is already existing !! : Tu dirección de email ya existe !!
+Your position is not specified or it is invalid : Tu posición no esta especificada o es invalida
+Begin date is not valid : La fecha de inicio no es valida
+Name error : Nombre error
+Email error : Email error
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.

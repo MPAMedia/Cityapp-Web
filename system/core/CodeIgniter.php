@@ -72,12 +72,87 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		require_once(APPPATH.'config/constants.php');
 	}
 
+
+    /*
+    * ------------------------------------------------------
+    *  Load the global parameters
+    * ------------------------------------------------------
+    */
+
+    if (file_exists("config/" . PARAMS_FILE . ".json")) {
+        $params = loadData("config/" . PARAMS_FILE . ".json");
+    } else if (file_exists("../config/" . PARAMS_FILE . ".json")) {
+        $params = loadData("../config/" . PARAMS_FILE . ".json");
+    } else {
+        if(file_exists("config/params.json"))
+            $params = loadData("config/params.json");
+    }
+
+
+    $params = json_decode($params, JSON_OBJECT_AS_ARRAY);
+
+    if (!empty($params)) {
+        foreach ($params as $key => $value) {
+
+            if (is_array($value)) {
+                if (!defined($key))
+                    define($key, json_encode($value, JSON_FORCE_OBJECT));
+            } else {
+                if (!defined($key))
+                    define($key, $value);
+            }
+
+        }
+    }
+
+
+    //set default time zone
+    if (defined("TIME_ZONE"))
+        date_default_timezone_set(TIME_ZONE);
+
+    //some updates
+    if (defined("CRYPRO_KEY") and !defined("CRYPTO_KEY")) {
+        echo "<h3>Opps!</h3>Please correct \"CRYPRO_KEY\" by \"CRYPTO_KEY\" in your config file go to /config/config.php in lines 30-31";
+        die();
+    }
+
+
+    if (defined("HASLINKER")) {
+
+
+
+    }
+
+
+    function loadData($file)
+    {
+
+        if (file_exists($file)) {
+            $data = "";
+            $myfile = fopen($file, "r+");
+            while ($line = fgets($myfile)) {
+                // <... Do your work with the line ...>
+                $data = $data . $line;
+            }
+            fclose($myfile);
+            return $data;
+        }
+
+    }
+
+
+
 /*
  * ------------------------------------------------------
  *  Load the global functions
  * ------------------------------------------------------
  */
 	require_once(BASEPATH.'core/Common.php');
+    require_once BASEPATH.'database/drivers/mysqli/database_loader.php';
+
+
+
+
 
 
 /*
@@ -550,6 +625,14 @@ if ( ! is_php('5.4'))
 	{
 		$OUT->_display();
 	}
+	
+/*
+ * ------------------------------------------------------
+ *  Load the global functions
+ * ------------------------------------------------------
+ */
+	require(BASEPATH.'core/Common.php');
+    require_once BASEPATH.'database/drivers/mysqli/database_loader.php';
 
 /*
  * ------------------------------------------------------

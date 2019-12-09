@@ -1,0 +1,403 @@
+#Configuration
+config:
+    name: Italian
+    version: 1.0
+
+#key            #value
+Hello : Ciao
+Welcome : Benvenuto
+
+#Login page
+Login : Login
+Login_error : Errore Login
+Error : Errore
+Canceled : Cancellato
+Completed : Completato
+FORGET PASSWORD  : PASSWORD DIMENTICATA
+dont_have_account : Non hai un account ?
+Forgot_Password : Ha dimenticato la password ?
+Login_seccessfully  : Ti sei connesso con successo
+Full name : Nome e Cognome
+New password : Nuova Password
+Photo : Immagine
+Enter : Inserisci
+
+
+#DASHBAORD
+Total_Stores : Attivita' Totali
+Total_Events : Eventi Totali
+Total_Customers : Clienti Totali
+Total_Campaigns : Campagne Totali
+Overview: Panoramica
+Recently_Added : Aggiunto recentemente
+Last_reviews  : Ultime recensioni
+View_all_stores : Visualizza tutte le attivita'
+
+#Menu items
+Home : HOME
+Offers : Offerte
+Manage Events : Gestisci eventi
+Manage Customers : Gestisci i clienti
+Categories : Categorie
+Compaigns : Campagne 
+Application : Applicazione
+Events : Eventi
+Add_new : Aggiungi
+All_stores : Tutte le attivita'
+All Offers : Tutte le offerte
+My_stores : La mia attivita'
+All Campaigns : Tutte le Campagne
+My campaigns : Le mie Campagne
+Pushed : Pushed
+Completed : Complete
+Campaigns (No-valid) : Campagna (Non-valida)
+
+All Campaigns : Tutte le Campagne
+My campaigns : Le mie Campagne
+Pushed : Pushed
+Completed : Complete
+Campaigns (No-valid) : Campagna (Non-valida)
+Add new : Aggiungi Nuovo
+My Offers : Le mie offerte
+
+
+
+#Frontend App
+Description_app : 
+Setup_easy_desc : 
+Advanced_setting_desc : 
+Make_business_desc  : 
+Beautiful_ui :  
+Cutomize_app_desc  :  I
+Chat_desc : 
+Gps_des : 
+Keep_it_controle : 
+Push_offers : 
+Manage_customers :  
+Support_multi_language :  
+Advanced_dashboard_desc : 
+Nearby_stores_features : 
+Contact_us_desc : 
+you_dont_have_permission: 
+Are you sure?: 
+Are you sure you want to delete it : 
+
+
+#configuration
+Customer_can_publish_own_event_auto: Il cliente puo' pubblicare il proprio evento senza la conferma dell' amministratore
+Number_campaigns_max_monthly: Numero di campagne massime al mese
+Number items per page: Items allowed per page
+Number stores per page: Stores allowed per page
+Download app: Download app
+Dashboard Color : Dashboard Color
+Upload limitation : Upload limitation
+Back-office_logo: dashboard logo
+Crypto_key: Crypto key
+Enable Offer: Enable offer
+Enable Event: Enable event
+Default_language: Default language
+User subscription : Servizi per Utente
+Campaign config : Campaign config
+Welcome message : Messaggio di benvenuto
+Optional field : Optional field
+Dashboard analytics :  Dashboard analytics
+Enable Messages From Dashboard : Abilita i messaggi da Dashboard
+Allow dashboard messenger to owners : Consenti messaggistica dashboard ai proprietari
+Enable chat with firebase :  Abilita la chat con Firebase
+Should be enabled from app client : Dovrebbe essere abilitato dal client dell'app
+Number_max_of_stores : Attivita' consentite
+Number_events_max_monthly : Eventi al mese
+Number campaigns max monthly :  Campagne al mese
+Number_offers_max_monthly : Offerte al mese
+Email_verificaion : Verifica email
+User_config : Configurazione Utente
+App_name : Nome App
+Default_email : Email
+Back-office_ logo : Back-office logo
+Dashborad_config : Dashborad config
+Number_items_per_page : Number items per page
+Copy_this_key_your_android_res : Copy this key in your android resource file "app_config.xml"
+Number_stores_per_page : Number stores per page
+Enable_store : Enable store
+Customer_can_publish_own_store_auto : The customer can publish his own store without admin confirmation
+Default_timezone : Default timezone
+Default _anguage : Linguaggio predefinito
+Add_new_currency : Add new currency
+Language : Languaggio
+Without_validation_by_admin : Senza convalida da parte dell' admin
+Push_campaign_auto : Invia le campagne Push in automatico 
+Target_raduis : Localizza ristoranti entro tot km
+Number_max_pushes_per_campaign : Pushes allowed per campaign
+Use_campaign_with_crontab : Use campaign with crontab
+you_can_push_10_campaigns_for_every_10_minutes :  you can push 10 campaigns for every 10 minutes
+Add_this_url_in_cronTab_in_your_cpanel  : Add this url in cronTab in your cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : Pushes allowed per campaign with crontab for each run
+Messages Config : Messages Config
+Enable user (owner) registration : Abilita la registrazione dell'utente (proprietario)
+Number max pushes per campaign : Numero massimo di push per campagna
+
+
+#Messages
+We could not find the page you were looking for : We could not find the page you were looking for
+Meanwhile, you may : Meanwhile, you may
+Meanwhile, you may : Meanwhile, you may
+return to the home page : return to the home page
+or try using the search form : or try using the search form
+Are you sure that you want to delete this store : Are you sure that you want to delete this Store
+Are you sure that you want to delete this Event : Are you sure that you want to delete this Event
+Are you sure that you want to delete this user :  Are you sure that you want to delete this User
+The installation folder represents a danger : The installation folder represents a danger
+Please remove install directory  : Please remove the installation folder
+Account without verification! : Account in attesa di verifica.
+We've sent mail verification to your mailbox. : Abbiamo inviato una mail di verifica alla tua email.
+Delete_confirmation : Sei sicuro che si desidera eliminare questa attivita' ?
+Select owner : Seleziona il proprietario
+
+#Compaign
+Alert_compaign : Eventi Push, offerte ecc
+Type campaign : Tipo campagna
+No Campaigns : Nessuna Campagna trovata
+Offer is expired : Offerta scaduta
+That offer will  expired in  : L'offerta scadra'
+Edit offer : Modifica offerta
+This campaign will be displayed to %s customers within %s KM : Questa campagna viene visualizzata a %s utenti nel raggio di %s KM
+Are you sur to duplicate this campaign ? : Sei pronto a duplicare questa campagna?
+
+
+#Global
+Telephone : Telefono
+Action  : Azione
+Rating  : Valutazione
+Allow : Consentire
+Deny : Negare
+Your account has created  : Il tuo account e' stato creato
+Success  : OK login corretto
+No data found  : Nessun dato trovato
+Enter your email : Inserisci email
+Title : Titolo
+Reset  :  Salva Password
+Connect : Connetti
+Pending : In attesa
+App name : Nome App
+Symbol : Simbolo
+Cancel  : Cancella
+Format : Formato
+Name : Nome
+config_sidebar:  Configurazione
+MENU: MENU
+All Events: Tutti gli eventi
+My events: I miei eventi
+All Compaigns: Tutte le campagne
+My Compaigns: Le mie campagne
+Search : Cerca
+Enabled: Attivo
+Create your store: Crea la tua attivita'
+Detail: Dettagli
+Add new offer: Aggiungi nuova offerta
+Date Begin: Data inizio
+Date End: Data fine
+Offer: Offerta
+Published: Pubblicato
+Finished: Finito
+Disabled: Disabilitato
+Create new campaign: Crea nuova campagna 
+Select campaign type: Seleziona tipo campagna
+Select event: Seleziona evento
+Select offer: Seleziona offerta
+Push: Push
+Duplicate: Duplica
+Create: Crea
+Role Type  :  Tipo di ruolo
+View all stores: Visualizza tutte le attivita'
+Owner: Proprietario
+Store: Attivita'
+Campaigns : Campagne
+Send password : Invia password
+We've sent new password to your mailbox : Abbiamo inviato un link alla tua casella di posta per reimpostare la password
+Profile  : Profilo
+Logout  : Logout
+Add : Aggiungi
+Toggle navigation : Toggle navigation
+Save : Salva
+Currencies : Valute Euro ecc
+Default_currency  : Valuta di Default
+signup : Iscriviti
+signin : Registrati
+Reviews : Recensioni
+Stores  : Attivita'
+Store : Attivita'
+Confirm : Conferma
+Delete : Cancella
+Close : Chiuso
+Update_your_store : Aggiorna la tua attivita'
+Update your store : Aggiorna la tua attivita'
+Update : Aggiorna
+Drag the marker to get the exact position: Trascina l' indicatore per ottenere la posizione esatta
+Add_new_offer : Aggiungi nuova offerta
+Create : Memorizza scheda
+Clear : Cancella
+Add new category : Aggiungi nuova categoria
+Edit Category: Modifica categoria
+Category name : Nome categoria
+Offer percent : Offerta in percentuale
+Offer price : Prezzo Offerta
+Offer price by  : Offerta per prezzo
+Enter price of your offer : Inserisci prezzo
+Date end  : Data di fine
+Date begin  : Date begin
+Description : Descrizione
+Offers :  Offerte
+Targeting estimation : Stima Targeting 
+Radius of  : Raggio di
+Km you will target : Km target
+nearby guests  : Utenti vicini
+Will end at : Si concludera'
+No Offers : Nessuna Offerta
+Events : Eventi
+Create Event : Crea Evento
+Name : Nome
+Image: Immagine
+Images : Immagini (e' possibile caricare piu immagini - una alla volta)
+Event name : Nome evento
+Address  : Indirizzo
+Status : Stato
+Username : Username
+Email  : Email
+WebSite : Sito Web
+Access Role  : Tipo utente
+Status  : Stato
+Customers : Clienti
+Select offer currency : Seleziona valuta
+Manage Stores : Gestione Attivita'
+Messages : Messaggi
+Find New Customer To Chat : Trova un nuovo cliente per chattare
+No discussions :  Nessun messaggio presente
+You will need to know that you can sign all shops, events and offers to another owner by selecting the owner from the list above. : Dovrai sapere che puoi firmare tutti i negozi, gli eventi e le offerte a un altro proprietario selezionando il proprietario dall'elenco in alto.
+
+Type : Tipo
+Login : Login / Accedi
+Last visited : Ultimo accesso
+No-Confirmed : Non Confermato
+Confirmed : Confermato
+Admin : Amministratore
+Owner : Proprietario
+Customer : Cliente / Utente
+Select store  : Seleziona attivita'
+Number of stores :  Numero di attivita' che puoi gestire
+Create new User : Crea nuovo Utente
+Create new : Crea nuovo
+Confirm Password : Conferma Password
+Password  : Password
+Phone Number  : Numero telefono
+Number of events monthly : Numero di eventi mensili che puoi creare
+Campaigns monthly : Numero di campagne mensili che puoi creare
+Number of offers monthly  : Numero di offerte mensili che puoi creare
+Note : Note
+Confirm  : Conferma
+Store Name : Nome attivita'
+Category : Categoria
+Status : Stato
+Send : Invia
+User configuration: Configurazione utente
+setup_successful : Installazione riuscita
+have_already_account  : Hai gia' un account ? Clicca per accedere.
+
+
+
+
+#Form validation messages
+Access denied : Accesso negato
+Sorry you don't have permission to do it : Mi spiace che non hai il permesso di farlo
+Sorry your account should be for business, to connect with the dashboard, please contact our support : Spiacenti, il tuo account e' di tipo UTENTE, non e' commerciale, ti preghiamo di contattare il nostro supporto.
+User not created  !!  : Utente non creato !!
+You don't have an account . could you please create it !!  : Non hai un account. Puoi crearlo facilmente.
+Store already exist  : Attivita' gia' esistente
+Login invalid   : Errore Login
+Empty login  : Login vuoto
+Empty password  : Password vuota
+Check your confirm password  : Controlla la tua conferma password
+Sorry your account is locked !!  : Spiacente, il tuo account e' bloccato !!
+Auth error : Errore di autenticazione
+Auth error, login or password incorrect! : Errore di autenticazione, login o password errati !
+user not found : Utente non trovato
+Username is invalid or already exist! : Il nome utente non e' valido o esiste gia' !
+This name is already exist : Questo nome esiste gia'
+username is empty : username is empty
+Empty Address  : Empty Address
+User not logged in : User not logged in
+Your mail is  not valid : Your mail is  not valid
+Your mail is empty : Your mail is empty
+Miss authentication to access this page : Miss authentication to access this page
+this username or email is already exist : this username or email is already exist
+You dont have the access to delete this post : You dont have the access to delete this post
+user not selected : user not selected
+username field is empty : username field is empty
+username field is invalid : username field is invalid
+forgot password : forgot password
+missing mac address : missing mac address
+Invalid mac_address : Invalid mac_address
+Store_id is messing : Store_id is messing
+Oops! Page not found : Oops! Page not found
+Store name is empty : Store name is empty
+Store name is not valid  : Store name is not valid
+Store address is empty : Store address is empty
+Phone number is empty !! : Phone number is empty !!
+Phone number is invalid !! : Phone number is invalid !!
+store already : store already
+Category is not set  : Category is not set
+Store not created  !!  : Store not created  !!
+location not found !!  : location not found !!
+Store not specified !! : Store not specified !!
+You should delete all  stores from this category !! : You can not delete this category because it is linked to other stores !!
+Category not found !! : Category not found !!
+Category is empty  !! : Category is empty  !!
+Category name should no be empty !! : Category name should no be empty !!
+Invalid event name : Invalid event name
+Invalid description : Invalid description
+description is empty : description is empty
+Invalid phone number : Invalid phone number
+Address is empty : Address is empty
+Name is empty : Name is empty
+date begin format not valid ! : date begin format not valid !
+date end format not valid ! : date end format not valid !
+Enter a valid URL !! : Enter a valid URL !!
+your position  is not found ! : your position  is not found !
+This name is already exist !!   : This name is already exist !!
+event  not created  !!  : event  not created  !!
+event  not found  !!  : event  not found  !!
+Event not specified !! : Event not specified !!
+no message to send  : no message to send
+Send a message : Invia il messaggio
+This operation is denied in demo mode : This operation is denied in demo mode
+You don't have permission to do it! :  You don't have permission to do it!
+You have exceeded the maximum number of events : You have exceeded the maximum number of events
+You have exceeded the maximum number of campaigns : You have exceeded the maximum number of campaigns
+You have exceeded the maximum number of stores : You have exceeded the maximum number of stores
+Status not found : Status not found
+This currency is already exist  : This currency is already exist
+Please_select_store : Please select store
+mail_verification : Verifica mail
+Type is not valid : Type is not valid
+Type Message : Scrivi qui la risposta al messaggio
+This currency is already exist  : This currency is already exist
+Campaign name is empty : Campaign name is empty
+Something wrong  : Something wrong
+Register id errors : Register id errors
+Date of begin is not valid  : Date of begin is not valid
+Offer id is messing : Offer id is messing
+Store id is not valid : Store id is not valid
+Password is not valid : Password is not valid
+Token isn t valid : Token isn t valid
+The password must be at least 6 characters : The password must be at least 6 characters
+Reset error : Reset error
+Your login not exist or you have exceeded the limit of sending : Your login not exist or you have exceeded the limit of sending
+Error (SenderId isn't valid!) : Error (SenderId isn't valid!)
+login or password are not valid  : login or password are not valid
+Name field is empty : Name field is empty
+Your email address is already existing !! : Your email address is already existing !!
+Your position is not specified or it is invalid : Your position is not specified or it is invalid
+Begin date is not valid : Begin date is not valid
+Name error : Errore nel Nome
+Email error : Errore Email
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.

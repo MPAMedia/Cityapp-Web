@@ -1,4 +1,32 @@
 <?php
+
+/*
+ *---------------------------------------------------------------
+ * BASIC CONFIGURATION
+ * --------------------------------------------------------------
+ */
+
+    define("TAX",0);
+
+    //demo mode
+    require_once 'config/demo.php';
+    include_once 'init.php';
+
+    //check and install
+    if(file_exists('config/config.php')){
+        include_once 'config/config.php';
+    }else if(file_exists("install/index.php")){
+        header('Location: install/index.php');
+        exit();
+    }else{
+        echo "Something wrong! please re-upload the project!";
+        exit();
+    }
+
+    //set default timezone
+    date_default_timezone_set('UTC');
+
+
 /**
  * CodeIgniter
  *
@@ -129,7 +157,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$view_folder = '';
+	$view_folder = dirname(__FILE__)."/views";
 
 
 /*
@@ -304,6 +332,8 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+
+
 
 /*
  * --------------------------------------------------------------------

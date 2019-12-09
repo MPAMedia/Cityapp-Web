@@ -1,0 +1,399 @@
+#Configuration de la langue developped by Amine
+config:
+  name: Français
+  version: 1.0
+
+#key            #value
+Hello : Salut
+Welcome : Bienvenu
+
+#login
+dont_have_account: Vous n'avez pas de compte ?
+Forgot_Password: Mot de passe oublié
+Login_seccessfully: vous êtes connecté avec succès
+Telephone: Téléphone
+Action: Action
+Rating: Évaluation
+Login: Connecter
+have_already_account: Vous avez déjà un compte
+signup: S'inscrire
+Send password: Envoyer
+
+#HOME
+Total_Stores: Total des magasins
+Total_Events: Total des événements
+Total_Customers: Total des Clients
+Total_Campaigns: Total des campagnes
+Campaigns: campagnes
+
+#Menu items
+Home: Accueil
+Manage Stores: Gérer les magasins
+All_stores: Tous les magasins
+My_stores: Mes magasins
+Offers: Offres
+Manage Events: Gérer les événements
+All Events: Tous les événements
+My events: Mes événements
+All Offers: Tous les offres
+Manage Customers: Gérer les clients
+Customers: Clients
+Categories: Catégories
+Compaigns: Les campagnes
+All Compaigns: Tous les campagnes
+My Compaigns: Mes campagnes
+Pushed: Envoyées
+Completed: Terminées
+Campaigns (No-valid): Campagnes non validées
+Download app: Télécharger l'application
+Application: Application
+Events: Evénements
+Stores: Magasins
+Add new: Ajouter un nouveau
+
+
+Image: Image
+Images: Images
+
+
+Lng: Lng
+Lat: Lat
+Address: Adresse
+
+#Application
+Number_max_of_stores: Nombre de magasin autorisé
+Number_events_max_monthly: Nombre d'événement autorisé par mois .
+Number_offers_max_monthly : Nombre d'offres autorisé par mois
+Number_offers_max_monthly: Nombre d'offres autorisé par mois
+Copy_this_key_your_android_res: Copier la clé dans le fichier  "app_config.xml"  de votre répertoire resource mobile
+Email_verificaion: Vérification de l'adresse e-mail
+User_config: Config utilisateur
+App_name: Nom de l'application
+Default_email: Email par défaut
+Back-office_logo: Back-office logo
+Dashborad_config: Dashborad config
+Number_items_per_page: Nombre d'éléments par page
+Number_stores_per_page: Nombre de magasins par page
+Enable_store: Activer le magasin
+Customer_can_publish_own_store_auto: Le client peut publier son  propre magasin automatiquement
+Default_timezone: Fuseau horaire par défaut
+Default_language: Langue par défaut
+Add_new_currency: Ajouter une nouvelle devise
+Add: Ajouter
+Without_validation_by_admin: Sans validation par admin
+Push_campaign_auto: Push campaign auto
+Target_raduis:  Rayon Ciblé
+Number_max_pushes_per_campaign:  Nombre maximum de pushes par campagne
+Use_campaign_with_crontab: Utiliser la campagne avec crontab
+you_can_push_10_campaigns_for_every_10_minutes:  vous pouvez envoyer 10 campagnes toutes les 10 minutes
+Add_this_url_in_cronTab_in your_cpanel: Ajoutez cette URL dans cronTab dans votre cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute: Nombre max de pushes  par campagne avec cronjob dans chaque exécution
+Save: Enregistrer
+Currencies: Devise
+Default_currency: Devise par défault
+Role Type: Type d'accès
+Auth error: Erreur d'authentification
+View Offers: Voir L'offre
+Start: Valable du
+End: Au
+End after: Expiré(e) avant
+Start after: Commence avant
+FEATURED: Recommandé
+
+
+
+
+
+
+#Compaign
+Alert_compaign : Pusher les événements, offres ou nouveaux magasins à vos clients proches .
+
+
+
+
+#Frontend App
+Header_text:  L'application mobile Rabais étudiant permet aux jeunes de 35 ans et moins de trouver leurs magasins, boutiques, restaurants et commerces préférés par géolocalisation, en plus de demeurer à l'affût des offres promotionnelles et événements en vigueur. L'application Rabais étudiant offre un pont de communication rapide et d'actualité entre les jeunes et les commerçants.  Les usagers peuvent même clavarder entre eux, en plus de pouvoir donner leur avis sur des magasins.<br><br>Rabais étudiant vise également à proposer aux jeunes de 35 ans et moins des tarifs spéciaux au niveau de leurs besoins principaux de dépenses qui sont l’alimentation, le logement et les outils d’apprentissages (livre, PC, logiciel). Cependant, n’oublions pas que les étudiants sont aussi des êtres humains et ils ont besoin de se détendre, de se divertir et de se faire plaisir, par conséquent il est essentiel qu’ils puissent bénéficier d'autres réductions, tels que pour leurs loisirs, leurs activités sportives et leurs sorties.<br><br>Rabais étudiant tient à coeur les valeurs suivantes qui nous guident dans nos actions - 1) Bâtir une Économie verte. 2) Bâtir des générations de “plus en mieux” diplômées. 3) Promouvoir le sport et les activités sociales. 4) Promouvoir le respect, l’entraide et le plaisir.<br><br>Depuis 2000, notre firme, Firme-Conseil CIMET, est impliquée auprès des jeunes et des adultes dans leur choix de carrière et leur intégration professionnelle. Nous sommes bien positionné pour comprendre la réalité parfois précaire des étudiants sur le plan de leur équilibre finances, études et qualité de vie.
+Description_app:  &laquo;<i> Super extraordinaire, pratique, esthétique, convivial, c'est très bien fait! </i> &raquo;<br><br>Bienvenue sur Rabais étudiant, l'application mobile qui fait économiser les moins de 35 ans! L'application Rabais étudiant n’offre pas seulement des “rabais étudiants”, elle offre aussi toutes sortes de promotions, rabais, concours et événements! <br><br>Rabais étudiant permet à votre clientèle cible de trouver votre commerce et de demeurer à l'affût de vos promotions, offres de dernière minute, rabais, aubaines, spéciaux, concours et de vos événements. Vous pouvez également envoyer une notification push aux étudiants chaque fois que vous créez une nouvelle offre!
+Setup_easy_desc: Les étudiants peuvent repérer rapidement votre magasin par géolocalisation et recherche par mots clés, en plus de trouver et d'être alertés par vos offres promotionnelles en cours. Il ne vous reste plus qu'à être créatif dans la publication de votre magasin, de vos offres et de vos événements. Vous pouvez même ajouter des photos à vos magasins, offres et événements, planifier les dates de début et fin de publication, etc. Voici des exemples:<br><br><i><i class="fa fa-bell-o" aria-hidden="true"></i> Aubaines de dernière minute<br><i class="fa fa-bell-o" aria-hidden="true"></i> Offres du jour<br><i class="fa fa-bell-o" aria-hidden="true"></i> Promotions pour un temps limité<br><i class="fa fa-bell-o" aria-hidden="true"></i> Rabais sur un produit ou un service<br><i class="fa fa-bell-o" aria-hidden="true"></i> Rabais express jeudi entre 17h et 18h<br><i class="fa fa-bell-o" aria-hidden="true"></i> Ventes de liquidation<br><i class="fa fa-bell-o" aria-hidden="true"></i> Annonces d'un nouveau produit<br><i class="fa fa-bell-o" aria-hidden="true"></i> Concours<br><i class="fa fa-bell-o" aria-hidden="true"></i> Événements à venir<br><i class="fa fa-bell-o" aria-hidden="true"></i> 2 pour 1 sur votre commande ce midi<br><i class="fa fa-bell-o" aria-hidden="true"></i> Rabais (%) sur marchandise sélectionnée<br><i class="fa fa-bell-o" aria-hidden="true"></i> Spéciaux de la rentrée scolaire<br><i class="fa fa-bell-o" aria-hidden="true"></i> Aubaines de la semaine de relâche<br><i class="fa fa-bell-o" aria-hidden="true"></i> Promotions estivales<br><i class="fa fa-bell-o" aria-hidden="true"></i> Rabais (%) jusqu'à 17hres aujourd'hui, etc.</i><br>...<b>C'est vous qui décidez et créez vos offres!</b>
+Advanced_setting_desc: Grâce aux notifications pushs que vous envoyées lors de chaque nouvelle campagne que vous créée, les étudiants sont avisés dès qu'une offre spéciale est disponible dans leur secteur. Votre tableau de bord facilite la gestion de vos annonces et le suivi de vos campagnes!
+Make_business_desc: Grâce à l'application mobile RABAIS ÉTUDIANT, vous êtes en mesure de cibler précisément votre clientèle (16-35 ans en moyenne).  Les étudiants désirent tous réaliser des économies dans une multitude de commerçants différents pour réaliser les activités ou acheter les produits et services qui les intéressent.
+Beautiful_ui:  Belles présentations, animations et notifications qui affichent avec élégance et simplicité ce qui est important pour les jeunes.
+Cutomize_app_desc:  Votre compte ne nécessite aucune compétence particulière et il demeure facile à configurer et à personnaliser à l'image de votre entreprise.
+Chat_desc: Les utilisateurs peuvent discuter (clavarder) avec leurs amis proches et aussi avec les propriétaires d’entreprise sans limite, il vous suffit de vous connecter à l’application pour activer votre GPS afin d’accéder à vos discussions.
+Gps_des: L'application RABAIS ÉTUDIANT est basée sur la position GPS pour afficher tous les magasins et les promotions intéressantes à proximité (n'oubliez pas d'activer le GPS avant d'utiliser l'application).
+Keep_it_controle: Le tableau de bord vous donne une visibilité complète sur l'utilisation de l'application. Des graphiques et des tableaux sont présents pour vous donner une meilleure traçabilité de vos promotions et campagnes.
+Push_offers: Envoyez des notifications push aux étudiants et clients en un seul clic pour les informer des nouvelles offres qui leur sont proposées. En outre, vous pouvez organiser votre contenu dans une campagne et le transmettre directement aux utilisateurs.
+Manage_customers:  En tant qu'administrateur de votre compte, vous pouvez créer, publier et gérer tous vos magasins, ainsi que tous les rabais, promotions, offres spéciales et événements que vous désirez publier tout au long de votre abonnement (illimité). Vous pouvez choisir par exemple de publier une nouvelle promotion à chaque semaine, à chaque mois et même à chaque jour!
+Support_multi_language:  Vous pouvez gérer, programmer et effectuer le suivi de vos offres promotionnelles (offres de dernière minute, concours ET/OU toute autre promotion), vos événements et vos campagnes de notifications lancées à tous les étudiants.
+Advanced_dashboard_desc: Restez toujours informé de vos offres et campagnes grâce à votre tableau de bord.
+Nearby_stores_features: L'application RABAIS ÉTUDIANT est intégrée à la géolocalisation exacte, ce qui permet à vos clients d’acheminer et d’accéder facilement à vos points de vente.
+Propos_desc: Depuis 2000, notre firme, Firme-Conseil CIMET, est impliquée auprès des jeunes et des adultes dans leur choix de carrière et leur intégration professionnelle. Nous sommes bien positionné pour comprendre la réalité parfois précaire des étudiants sur le plan de leur équilibre finances, études et qualité de vie. <br><br>"Ayant été moi-même propriétaire d'un établissement commercial sur la rue St-Denis à Montréal pendant 5 ans et intervenant depuis 20 ans auprès d'une clientèle variée, je sais à quel point un commerçant peut-être heureux d'offrir des promotions spéciales aux jeunes. Le sourire des jeunes clients est révélateur en raison de la satisfaction des économies réalisées et du sentiment d'avoir réalisé une bonne affaire. De son côté, le commerçant n'en retire que des bénéfices, financiers et moraux, en plus de favoriser la fidélisation de sa clientèle. Il s'agit donc d'une relation "gagnante-gagnante"! (Derick Fleming, dir. général).  <br><br>L'application Rabais étudiant offre un pont de communication rapide et d'actualité entre les jeunes et les commerçants. L'application permet à la fois d'offrir des rabais exclusifs aux étudiants sur présentation d'une carte étudiante valide (sans être obligatoire pour le commerçant), et également de communiquer facilement auprès de la clientèle cible toute autre promotion ponctuelle normalement diffusée à travers les autres médias (ventes de fin de saison, offres de dernière minute, rabais spéciaux du midi, liquidations, ventes d'inventaire, concours, événements, etc.). <br><br>Rabais étudiant veut proposer aux jeunes de 35 ans et moins des tarifs spéciaux au niveau de leurs besoins principaux de dépenses qui sont l’alimentation, le logement et les outils d’apprentissages (livre, PC, logiciel). Cependant, n’oublions pas que les étudiants sont aussi des êtres humains et ils ont besoin de se détendre, de se divertir et de se faire plaisir, par conséquent il est essentiel qu’ils puissent bénéficier d'autres réductions, tels que pour leurs loisirs, leurs activités sportives et leurs sorties. <br><br> Rabais étudiant tient à coeur les valeurs suivantes qui nous guident dans nos actions - 1) Bâtir une Économie verte. 2) Bâtir des générations de “plus en mieux” diplômées. 3) Promouvoir le sport et les activités sociales. 4) Promouvoir le respect, l’entraide et le plaisir.
+Contact_us_desc: Nous fournissons un support rapide et fiable à nos clients, qu’il s’agisse de la création d'un nouveau compte, d’un dépannage ou de demandes spéciales. Si vous avez besoin d’aide pour la configuration de votre compte, envoyez-nous simplement un message. Pour connaître nos forfaits (mensuels ou annuels), veuillez communiquer avec nous.
+Account without verification: Le Compte n'est pas encore verifié  .
+We've sent mail verification to your mailbox: Nous avons envoyé un mail de confirmation a votre boite mail .
+The installation folder represents a danger: Le dossier d'installation représente un danger
+Please remove install directory: Veuillez supprimer le répertoire d'installation !!
+Recently Added: Récemment ajoutés
+Statistic: Statistique
+Stores: Magasins
+
+#Cconfig
+Enable Offer: Activer L'offre
+Enable_event: Activer L'Événement
+Customer_can_publish_own_event_auto: Le client peut publier son événement sans vérification par l'admin
+Crypto_key: Clé de chiffrement
+Number stores per page: Nombre de magasing par page
+Number items per page: Nombre d'élement par page
+Logout: Déconnecter
+Profile: Profil
+
+
+MENU: MENU
+Download app: Télécharger l'application
+Back-office_logo: dashboard logo
+Number_campaigns_max_monthly: Nombre de campagnes max mensuel
+Crypto_key: Crypto key
+Number items per page: Nombre d'éléments par page
+Number stores per page: Nombre de magasins par page
+Enable Offer: Activer l'offre
+Enable Event: Activer l'événement
+Customer_can_publish_own_event_auto: Le client peut publier son propre événement automatique
+Add_this_url_in_cronTab_in your_cpanel: Ajoutez cette URL dans cronTab dans votre cpanel
+Search: Chercher
+Enabled: Activée
+Create your store: Créez votre magasin
+Detail: Détail
+Add new offer: Ajouter offre
+Date Begin: Date de début
+Date End: Date de fin
+Offer: Offre
+Published: Publié
+Finished: Expiré
+Disabled: Désactivé
+Create new campaign: Créer une nouvelle campagne
+Select campaign type: Sélectionnez le type de campagne
+Select event: Sélectionnez un événement
+Select offer: Sélectionner l'offre
+Push: Envoyer
+Duplicate: Dupliquer
+Name: Nom
+Add new Category: Ajouter catégories
+Edit Category: Modifier la catégorie
+Last_reviews: Derniers commentaires
+Recently_Added: Récemment ajouté
+Owner: Propriétaire
+View all stores: Voir tous les magasins
+Will end at: date d'éxpiration
+Offer price by: Prix par
+Create: Créer
+Edit offer: Modifier L'offre
+Create Event: Créer un évènement
+Drag the marker to get the exact position: Faites glisser le marqueur pour obtenir la position exacte
+Event name: Nom de l'événement
+Store: Le magasin
+Last visited: Dernière visite
+Access Role: Rôle d'accès
+Create new User: Créer un nouvel utilisateur
+Number of stores: Nombre de magasins
+Number of events monthly: Nombre d'événements mensuels
+Campaigns monthly: Campagnes mensuelles
+Number of offers monthly: Nombre d'offres mensuelles
+Username: Nom d'utilisateur
+Password: Mot de passe
+Confirm Password: Confirmez le mot de passe
+Phone Number: Numéro de téléphone
+User configuration: Configuration de l'utilisateur
+Are you sure?: Vous êtes sur?
+View_all_stores: Voir tous les Boutiques
+Title: Titre
+config_sidebar: Configuration
+Type campaign: Campagne type
+Create new: Créer un nouveau
+Edit: Modifier
+Clear : Nettoyer
+Store gallery : Galerie de magasin
+Add New Tax : Ajouter une nouvelle taxe
+Tax Config : Taxe Configuration
+Add Tax : Ajouter la taxe
+Value : Valeur
+Default Tax : Taxe par défault
+Tax : Taxe
+Percent : Pourcentage
+
+
+
+#Form validation messages
+Access denied: Accès refusé
+Sorry you don't have permission to do it: Désolé, vous n'avez pas la permission de le faire
+User not created  !!: Utilisateur non créé !!
+You don't have an account . could you please create it !!: Vous n'avez pas de compte. pourriez-vous s'il vous plaît le créer !!
+Store already exist: Magasin existe déjà
+Login invalid: Login invalide
+Empty login: Login vide
+Empty password: Mot de passe vide
+Check your confirm password: vérifiez votre mot de passe de confirmation
+Sorry your account is locked !!: Désolé, votre compte est verrouillé !!
+Auth error: Erreur d'authentification
+user not found: Utilisateur non trouvé
+Username is invalid or already exist!: Le nom d'utilisateur est invalide ou existe déjà!
+This name is already exist: Ce nom existe déjà
+username is empty: le nom d'utilisateur existe déja
+Empty Address: Adresse est vide
+User not logged in: Utilisateur n'est pas authentifié
+Your mail is  not valid: Votre mail est invalide
+Your mail is empty: Votre mail est vide
+Miss authentication to access this page: Authentification requise pour y acceder à cette page
+this username or email is already exist: ce nom d'utilisateur ou e-mail existe déjà
+You dont have the access to delete this post: Vous n'avez pas le droit pour supprimer ce post
+user not selected: utilisateur non sélectionné
+username field is empty: Le champ Nom d'utilisateur est vide
+username field is invalid: Le champ du nom d'utilisateur est invalide
+forgot password: mot de passe oublié
+missing mac address: adresse mac manquante
+Invalid mac_address: Adresse mac invalide
+Store_id is messing: Store_id  manquant
+Store name is empty: Le nom du magasin est vide
+Store name is not valid: Le nom du magasin n'est pas valide
+Store address is empty: L'adresse du magasin est vide
+Phone number is empty !!: Le numéro de téléphone est vide !!
+Phone number is invalid !!: Le numéro de téléphone est invalide !!
+store already: store already
+Category is not set: La catégorie n'est pas définie
+Store not created  !!: Magasin non créé !!
+location not found !!: Emplacement non trouvé !!
+Store not specified !!: Magasin non spécifié !!
+You should delete all  stores from this category !!: Vous devriez supprimer tous les magasins de cette catégorie !!
+Category not found !!: Catégorie non trouvée !!
+Category is empty  !!: Catégorie est vide !!
+Category name should no be empty !!: Le nom de la catégorie ne doit pas être vide !!
+Invalid event name: Nom d'événement incorrect
+Invalid description: Invalid description
+description is empty: Description invalide
+Invalid phone number: Numéro de téléphone invalide
+Address is empty: L'adresse est vide
+Name is empty: Le nom est vide
+date begin format not valid !: Le format de date de début n'est pas valide
+date end format not valid !: Le format de date de fin n'est pas valide
+Enter a valid URL !!: Entrez une URL valide !!
+your position  is not found !: votre position n'est pas trouvée!
+This name is already exist !!: Ce nom existe déjà !!
+event  not created  !!: Événement non créé !!
+event  not found  !!: Événement non trouvé !!
+Event not specified !!: Événement non spécifié !!
+no message to send: aucun message à envoyer
+This operation is denied in demo mode: Cette opération est refusée en mode démo
+You don't have permission to do it!:  Vous n'avez pas la permission d'exécuter ce traitement !
+You have exceeded the maximum number of events: Vous avez dépassé le nombre maximum d'événements que vous pouvez publier (Acheter ou modifier votre forfait, contact@rabaisetudiant.com ou 418-837-9339 ext.201)
+You have exceeded the maximum number of campaigns: Vous avez dépassé le nombre maximal de campagnes que vous pouvez publier (Acheter ou modifier votre forfait, contact@rabaisetudiant.com ou 418-837-9339 ext.201)
+You have exceeded the maximum number of stores: Vous avez dépassé le nombre maximum de magasins que vous pouvez publier (Acheter ou modifier votre forfait, contact@rabaisetudiant.com ou 418-837-9339 ext.201)
+Status not found: Statut non trouvé
+This currency is already exist: Cette monnaie existe déjà
+Please_select_store: Veuillez sélectionner un magasin
+mail_verification: Courriel de vérification
+Type is not valid: Le type n'est pas valide
+Campaign name is empty: Le nom de la campagne est vide
+Something wrong: Quelque chose ne va pas
+Register id errors: Enregistrer les erreurs d'ID
+Date of begin is not valid: La date de début n'est pas valide
+Offer id is messing: L'identifiant de l'offre est manquant
+Store id is not valid: L'identifiant du magasin n'est pas valide
+Password is not valid: Le mot de passe n'est pas valide
+Token isn t valid: Token n'est pas valide
+The password must be at least 6 characters: Le mot de passe doit comporter au moins 6 caractères
+Reset error: Erreur de réinitialisation
+Your login not exist or you have exceeded the limit of sending: Votre login n'existe pas ou vous avez dépassé la limite d'envoi
+Error (SenderId isn't valid!): Erreur (l'identifiant de l'expéditeur n'est pas valide!)
+login or password are not valid: login ou mot de passe ne sont pas valides
+Name field is empty: Le champ Nom est vide
+Your email address is already existing !!: Votre adresse e-mail existe déjà !!
+
+
+
+Add new category: Ajouter Catégorie
+It's a category: C'est un catégorie
+Delete: Supprimer
+reviews: Avis
+Select offer currency: Sélectionnez la devise de l'offre
+Offer percent: Offre pourcentage
+Disabled Featured: Déactiver l'option recommandé
+Featured: Recommandé
+Pseudo or Mail: Pseudo ou Mail
+Enter your email: Entrez votre mail
+Full name: nom complet
+#Categories : ( put all your categories here )
+Fast-Food: prêt-à-manger
+Make it as featured : Mettre  en recommandé
+
+#version 1.4.2
+To test the campaign in debug mode, you must be sure that at least one shop, event or offer is created: Pour tester la campagne en mode débogage, vous devez vous assurer qu'au moins un magasin, un événement ou une offre est créé.
+
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.
+Enable user (owner) registration: Activer l'enregistrement de l'utilisateur (automatique)
+Show only offers starting the current day: Afficher uniquement les offres commençant le jour en cours
+Activated successfully: Activé avec succès
+Your account has been activated successfully, you can now use your account by taking advantage of all available access.: votre compte a été activé avec succès, vous pouvez maintenant utiliser votre compte en profitant de tous les accès disponibles.
+
+Reviews: Avis
+Confirm: Confirmer
+Decline: Décliner
+User Settings: Gestion des utilisateurs
+Pack Manager: Gestion des Abonnements
+Billing: Facture
+Payment config: Paiement
+Subscription Config: Configuration d'abonnement
+Default Group Access: Accès de groupe par défaut
+Duration: Durée
+Packs: Packs
+Enable default front-end: Activer le front-end par défaut
+Enable auto hidden offers: Activer les offres masquées automatiquement
+Show only offers starting at the current day: Afficher uniquement les offres à partir du jour actuel
+Enable auto hidden events: Activer les événements masqués automatiquement
+You should select default currency and supported for the PayPal or other methods  : Vous devez sélectionner la devise par défaut qui pourra être pris en compte par PayPal ou d'autres méthodes de paiement .
+Select Images : Séléctionnez une image
+Add New Group Access : Ajouter un nouvel accès au groupe
+Module Name : Nom module
+Add Group Access : Ajouter le groupe
+Save Changes : Sauvegarder les modifications
+Your are connected as admin : Vous êtes connecté en tant qu'administrateur
+Group Access  : Accès groupe
+Users : Utilisateurs
+Inbox : Boîte de réception
+No discussions : Pas de discussions
+No data found : Aucune donnée disponible
+My Offers : Mes offres
+My stores : Mes magasins
+Are you sure you want to delete : Etes-vous sûr que vous voulez supprimer
+delete : Supprimer
+Cancel : Annuler
+User type : Type d'utilisateur
+Consumption : Consommés
+nbr_offers_monthly  : Nombre d'Offres mensuelles
+push_campaign_auto : Pusser les campagnes publicitaire automatiquement
+nbr_campaigns_monthly : Nombre de campagne publicitaires mensuelles
+nbr_events_monthly : Nombre d'événements mensuelles
+nbr_stores : Nombre de magasins mensuelles
+Phone : Téléphone
+Change Password : Changer le mot de passe
+Edit user information   : Modifier les informations d'utilisateur
+New password : Nouveau mot de passe
+
+You are connected as admin :   Vous êtes connecté en tant qu'administrateur
+Add new Pack   : Ajoutez un nouveau pack
+Subscription config : Abonnement informations
+Stores Number  : Nombre de boutiques
+Events Number per month : nombre d'offre par mois
+Auto Push Campaign : Auto Push Campaign
+Campaigns Number per month  : nombre de compagne par mois
+Offers Number per month  : nombre d'offres par mois
+Pricing & Duration : Prix et temps d'échéance
+Free Pack : Abonnement gratuit
+Ordre  : Ordre
+Visible to the clients : Ce pack sera visible pour les clients
+Select Logo  : Selectionnez un logo
+Pricing : Prix
+Symbol : symbole
+Unpaid  : Non payée
+Paid : Payée
+Confirmed : Confirmé
+

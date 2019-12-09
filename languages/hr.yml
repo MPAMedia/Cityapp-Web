@@ -1,0 +1,396 @@
+#Configuration
+config:
+    name: Croatian-Serbian-Bosonian
+    version: 1.0
+
+#key            #value
+Hello : Zdravo
+Welcome : Dobrodošli
+
+#Login page
+Login : Prijava
+Login_error : Greška u prijavi
+Error : Greška
+Canceled : Otkazano
+Completed : Dovršeno
+FORGET PASSWORD  : ZABORAVI ŠIFRU
+dont_have_account : Nemate račun ?
+Forgot_Password : Zaboravili ste šifru
+Login_seccessfully  : Uspješno ste se prijavili
+
+
+#DASHBAORD
+Total_Stores : Total radnje
+Total_Events : Total događaji
+Total_Customers : Total kupci
+Total_Campaigns : Total kampanje
+Overview: Pregled
+Recently_Added : Nedavno dodano
+Last_reviews  : Posljednje recenzije
+View_all_stores : Pogledati sve radnje
+
+#Menu items
+Home : HOME
+Offers : Ponude
+Manage Events : Upravljajte događajima
+Manage Customers : Upravljajte kupcima
+Categories : Kategorije
+Compaigns : Kompanije
+Application : Prijava
+Events : Događaji
+Add_new : Dodaj novu
+All_stores : Sve radnje
+All Offers : Sve ponude
+My_stores : Moje radnje
+All Campaigns : Sve kampanje
+My campaigns : Moje kampanje
+Pushed : Direktne notifikacije(push notifikacije)
+Completed : Dovršeno
+Campaigns (No-valid) : Kampanja (Nije validna)
+Campaigns : Kampanje
+All Campaigns : Sve kampanje
+
+
+#Frontend App
+Description_app : Nearbystores je inovativna aplikacija za pretragu lokalnih poslovanja sa intelignetnom fukcijom pretrage, koja može pomoći pri potrazi raznih radnji u određenom području. Posjeduje odličan administrator lokatora radnji s kojim  možete upravljati radnjama, kategorijama, notifikacijma, vlasnicima radnja, događajima i ponudama.
+Setup_easy_desc : Bez kodiranja, jednostavnije i brže postavke koristeći konfiguracijske forme/oblike
+Advanced_setting_desc : Jednostavnije postavke, potpuna kontrola aplikacije (logo, ime, ograničenje pristupa, područje, notifikacije, valute ... )
+Make_business_desc  :  Uvećajte vaše poslovanje sa ovom aplikacijom
+Beautiful_ui :  Odlične karte, animacije i notifikacije koje prikazuju šta se važno nalazi oko vas
+Cutomize_app_desc  :  Aplikacija ne zahtjeva vještine programiranja, jednostavna je za konfigurisanje i prilagodbu .
+Chat_desc : Možete ćaskati, sa susjedima i vlasnicima radnja, bez ograničenja, prijavite se na applikaciju, uključite GPS te ćete dobiti pristup svim važnim ljudima oko vas .
+Gps_des : Nearbystores se temelji na vašoj lokaciji, da biste dobili pristup svim zanimljivim sadržajima u vašoj blizi, s toga ne zaboravite uključiti Lokaciju prije korištenja aplikacije.
+Keep_it_controle : Upravljačka ploča pruža preglednost korištenja aplikacije, grafovi i tabele pružaju lakše praćenje informacija. 
+Push_offers : Pošaljite direktne notifikacije vašim klijentima sa samo jednim klikom, kako biste ih informisali o novim ponudama u njihovoj blizini. Možete sa vašim sadržajem organizirati kampanju, te je poslati direktno vašim klijentima. 
+Manage_customers :  Kao administrator na aplikaciji imate mogućnost upravljanja vašim klijentima i njihovim radnjama, ovisno o tipu pretplate koji nudite, možete ograničiti upravljanje vaših korisnika. 
+Support_multi_language :  Možete promijeniti jezik na vaš omiljeni sa jednostavnim klikom .
+Advanced_dashboard_desc : Budite uvijek informisani o vašem riješenju, zahvaljujući odličnom poečtnom menu-u.
+Nearby_stores_features : Nearbystores ima ugrađenu geo lokaciju koja dozvoljava vašim klijentima da lakše pronađu vašu radnju.
+Contact_us_desc : Pružamo bržu i pouzdanu podršku našim klijentima kada je u pitanju upit, rješavanje problema, prilagodba i posebni zahtjevi. Ukoliko vam je potrebna pomoć sa instalacijom, samo nam pošaljite poruku. 
+you_dont_have_permission: Nemate dozvolu za ovu radnju, molimo vas pokušajte kasnije !
+Are you sure?: Da li ste sigurni?
+Are you sure you want to delete it : Da li ste sigurni da želite obrisati ? 
+
+
+#configuration
+Customer_can_publish_own_event_auto: Kupac može objaviti svoj događaj bez potvrde administratora
+Number_campaigns_max_monthly: Maximalni mjesečni broj kampanja
+Number items per page: Broj dozvoljenih artikala po stranici
+Number stores per page: Broj dozvoljenih radnji po stranici
+Download app: Preuzimanje aplikacije
+Dashboard Color : Boja upravljačke ploče
+Upload limitation : Limit učitavanja
+Back-office_logo: Logo operativnog ureda
+Crypto_key: Crypto ključ
+Enable Offer: Odobri ponudu 
+Enable Event: Odobri događaj
+Default_language: Zadani jezik
+User subscription : Korisnička pretplata
+Campaign config : Konfiguracija kampanje
+Welcome message : Poruka dobrodošlice
+Optional field : Opcionalno polje
+Dashboard analytics :  Analitika upravljačke ploče
+Enable Messages From Dashboard : Odobri poruke sa upravljačke ploče
+Allow dashboard messenger to owners : Odobri messenger na upravljačkoj ploči vlasnicima
+Enable chat with firebase :  Odobri ćaskanje sa bazom
+Should be enabled from app client : Treba biti dozvoljeno sa aplikacije klijenta
+Number_max_of_stores : Broj dozvoljenih radnji
+Number_events_max_monthly : Dozvoljen broj događaja u mjesecu
+Number campaigns max monthly :  Dozvoljen broj kampanja u mjesecu 
+Number_offers_max_monthly : Dozvoljen broj ponuda u mjesecu
+Email_verificaion : Potvrda email adresom
+User_config : Korisnička konfiguracija
+App_name : Naziv aplikacije
+Default_email : Zadani email
+Back-office_ logo : Logo operativnog ureda
+Dashborad_config : Konfiguracija upravljačke ploče
+Number_items_per_page : Broj stavki po stranici
+Copy_this_key_your_android_res : Kopirajte ovaj ključ u android datoteku resursa "app_config.xml"
+Number_stores_per_page : Broj radnji po stranici
+Enable_store : Odobri radnju
+Customer_can_publish_own_store_auto : Kupac može objaviti svoju radnju bez dozvole admina
+Default_timezone : Zadana vremenska zona
+Default _anguage : Zadani jezik
+Add_new_currency : Dodaj novu valutu
+Language : Jezik
+Without_validation_by_admin : Bez dozvole administratora
+Push_campaign_auto : Automatski pokrenuti kampanju
+Target_raduis : Ciljano područje (km)
+Number_max_pushes_per_campaign : Broj dozvoljenih push notifikacija po kampanji
+Use_campaign_with_crontab : Korištenje kampanje sa crontab-a
+you_can_push_10_campaigns_for_every_10_minutes :  you can push 10 campaigns for every 10 minutes
+Add_this_url_in_cronTab_in_your_cpanel  : Dodajte ovaj url u cronTab na vašem cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute :  Broj dozvljenih push notifikacija po kampanji u crontabu pri svakom pokretanju
+Messages Config : Konfiguracija poruka
+
+#Messages
+We could not find the page you were looking for : Stranica koju ste tražili nije pronađena
+Meanwhile, you may : U međuvremenu, možete
+Meanwhile, you may : U međuvremenu, možete
+return to the home page : vrati se na početnu stranicu
+or try using the search form : ili pokušajte koristiti ovu pretragu
+Are you sure that you want to delete this store : Da li ste sigurni da želite obrisati radnju 
+Are you sure that you want to delete this Event : Da li ste sigurni da želite obrisati događaj
+Are you sure that you want to delete this user :  Da li ste sigurni da želite obrisati korisnika
+The installation folder represents a danger : Instalacijska datoteka nije sigurna
+Please remove install directory  : Molimo vas izbrišite instalacijsku datoteku
+Account without verification! : Račun bez verifikacije!
+We've sent mail verification to your mailbox. : Poslali smo verifikacijski mail u vaš inbox.
+Delete_confirmation : Da li ste sigurni da želite obrisati radnju !!
+
+
+#Compaign
+Alert_compaign : Proslijedi događaje , ponude ili nove radnje vašim korisnicima .
+Type campaign : Vrsta kampanje
+No Campaigns : Bez kampanje
+Offer is expired : Ponuda je istekla
+That offer will  expired in  : Ponuda će isteći za 
+Edit offer : Promjeni ponudu
+This campaign will be displayed to %s customers within %s KM : Ova kampanja će biti prikazana %1$s kupcima od %2$s KM
+Are you sur to duplicate this campaign ? : Da li ste sigurni da želite duplicirati kampanju ?
+
+
+#Global
+Telephone : Telefon
+Action  : Radnja
+Rating  : Procjena/Rejting
+Allow : Dozvoli
+Deny : Odbij
+Your account has created  : Vaš račun je napravljen
+Success  : Uspješno
+No data found  : Nema pronađenih podataka
+Enter your email : Ukucajte vaš email
+Title : Naslov
+Reset  :  Reset
+Connect : Poveži
+Pending : Na čekanju
+App name : Ime aplikacije
+Symbol : Simbol
+Cancel  : Otkaži
+Format : Format
+Name : Ime
+config_sidebar:  Konfiguracija
+MENU: MENI
+All Events: Svi događaji
+My events: Moji događaji
+All Compaigns: Sve kampanje
+My Compaigns: Moje kampanje
+
+Search : Pretraga
+Enabled: Odobreno
+Create your store: Napravite svoju radnju
+Detail: Detalji
+Add new offer: Dodaj novu ponudu
+Date Begin: Datum početka
+Date End: Datum završetka
+Offer: Ponuda
+Published: Objavljeno
+Finished: Završeno
+Disabled: Onemogućeno
+Create new campaign: Napravi novu kampanju
+Select campaign type: Odaberi vrstu kampanje
+Select event: Odaberi događaj
+Select offer: Odaberi ponudu
+Push: Push
+Duplicate: Duplicirati
+Create: Napraviti
+Role Type  :  Vrsta korisnika/uloge
+View all stores: Pogledaj sve radnje
+Owner: Vlasnik
+Store: Radnja
+Campaigns : Kampanje
+Send password : Pošalji šifru
+We've sent new password to your mailbox : Poslana vam je nova šifra u inbox
+Profile  : Profili
+Logout  : Odjava
+Add : Dodati
+Toggle navigation : Uključi navigaciju
+Save : Spasi
+Currencies : Valute
+Default_currency  : Zadana valuta
+signup : Registruj se
+Reviews : Recenzije
+Stores  : Radnje
+Store : Radnja
+Confirm : Potvrdi
+Delete : Obriši
+Close : Zatvori
+Update_your_store : Ažurirajte vašu radnju
+Drag the marker to get the exact position: Povucite marker da biste dobili tačnu poziciju
+Add_new_offer : Dodaj novu ponudu
+Create : Napravi
+Clear : Očisti
+Add new category : Dodaj novu kategoriju
+Edit Category: Promijeni kategoriju
+Category name : Naziv kategorije
+Offer percent : Procenat ponude
+Offer price by  : Cijena ponude po
+Date end  : Datum završetka
+Date begin  : Datum početka
+Description : Opis
+Offers :  Ponude
+Targeting estimation : Procjena ciljne grupe
+Radius of  : U području od 
+Km you will target : Km na koje ciljate
+nearby guests  : Gosti u blizini
+Will end at : Završava se 
+No Offers : Nema ponuda
+Events : Događaji
+Create Event : Napravi događaj
+Name : Ime
+Image: Slika
+Images : Slike
+Event name : Naziv događaja
+Address  : Adresa
+Status : Status
+Username : Korisničko ime
+Email  : Email
+WebSite : Web stranica
+Access Role  : Access Role
+Status  : Status
+Customers : Kupci
+Type : Tip
+Login : Prijava
+Last visited : Posljedna posjeta
+No-Confirmed : Nije potvrđeno
+Confirmed : Potvrđeno
+Admin : Administrator
+Owner : Vlasnik
+Customer : Kupac
+Select store  : Odaberite radnju
+Number of stores :  Broj radnji
+Create new User : Napravi novog korisnika
+Create new : Napravi novi
+Confirm Password : Potvrdi šifru
+Password  : Šifra
+Phone Number  : Broj telefona
+Number of events monthly : Broj događaja u mjesecu
+Campaigns monthly : Broj kampanja u mjesecu
+Number of offers monthly  : Broj ponuda u mjesecu
+Note : Bilješka
+Confirm  : Potvrdi
+Store Name : Naziv radnje
+Category : Kategorija
+Status : Status
+User configuration: Korisnička konfiguracija
+setup_successful : Uspješna postavka
+have_already_account  : Račun već postoji
+
+
+
+
+#Form validation messages
+Access denied : Pristup odbijen
+Sorry you don't have permission to do it : Žao nam je ! Nemate dozvolu za ovu radnju.
+User not created  !!  : Korisnik nije napravljen !!
+You don't have an account . could you please create it !!  : Nemate račun . Možete li ga napraviti !!
+Store already exist  : Radnja već postoji
+Login invalid   : Prijava nije valjana
+Empty login  : Prazno polje prijava
+Empty password  : Prazno polje šifra
+Check your confirm password  : Provjerite polje za potvrdu šifre
+Sorry your account is locked !!  : Žao nam je, vaš račun je zaključan !!
+Auth error : Auth error
+user not found : korisnik nije pronađen 
+Username is invalid or already exist! : Korisničko ime nije ispravno ili već postoji!
+This name is already exist : Ovo ime već postoji
+username is empty : Korisničko ime je prazno
+Empty Address  : Adresa je prazna
+User not logged in : Korisnik nije prijavljen
+Your mail is  not valid : Vaša email adresa nije ispravna
+Your mail is empty : Polje email adresa je prazno
+Miss authentication to access this page : Pogrešna autentifikacija za ovu adresu
+this username or email is already exist : Korisničko ime ili adresa već postoji
+You dont have the access to delete this post : Nemate dozvolu da izbrišete ovu objavu
+user not selected : korisnik nije odabran
+username field is empty : Polje korisničko ime je prazno
+username field is invalid : Korisničko ime nije ispravno
+forgot password : Zaboravi šifru
+missing mac address : nedostaje mac adresa
+Invalid mac_address : Neispravna mac adresa
+Store_id is messing : ID radnje nedostaje 
+Oops! Page not found : Ops! Stranica nije pronađena
+Store name is empty : Polje Naziv radnje je prazno
+Store name is not valid  : Naziv radnje nije validan
+Store address is empty : Polje Adresa radnje je prazno
+Phone number is empty !! : Polje telefonski broj je prazno !!
+Phone number is invalid !! : Telefonski broj je neispravan !!
+store already : već spašeno
+Category is not set  : Kategorija nije odabrana
+Store not created  !!  : Radnja nije napravljena !!
+location not found !!  : lokacije nije pronađena !!
+Store not specified !! : Radnja nije određena !!
+You should delete all  stores from this category !! : Potrebno izbrisati sve radnje iz ove kategorije !!
+Category not found !! : Kategorija nije pronađena !!
+Category is empty  !! : Kategorija je prazna !!
+Category name should no be empty !! : Naziv kategorije ne može biti prazan !!
+Invalid event name : Neispravan naziv događaja
+Invalid description : Neispravan opis
+description is empty : Polje opis je prazno
+Invalid phone number : Neispravan telefonski broj
+Address is empty : Polje adresa je prazno
+Name is empty : Polje naziv je prazno
+date begin format not valid ! : Neispravan formata datuma početka !
+date end format not valid ! : Neispravan formata datuma završetka!
+Enter a valid URL !! : Upišite ispravan URL !!
+your position  is not found ! : vaša lokacija nije pronađena !
+This name is already exist !!   : Ovaj naziv već postoji!!
+event  not created  !!  : događaj nije napravljen  !!
+event  not found  !!  : događaj nije pronađen  !!
+Event not specified !! : Događaj nije određen!!
+no message to send  : Nema poruke za slanje
+This operation is denied in demo mode : Ova radnja nije dozvoljena u demo verziji
+You don't have permission to do it! :  Nemate dozvolu za ovu radnju!
+You have exceeded the maximum number of events : Dostigli ste maximalan broj događaja
+You have exceeded the maximum number of campaigns : Dostigli ste maximalan broj kampanja
+You have exceeded the maximum number of stores : Dostigli ste maximalan broj radnja
+Status not found : Status nije pronađen
+This currency is already exist  : Ova valuta već postoji
+Please_select_store : Odaberite radnju
+mail_verification : potvrda maila
+Type is not valid : Vrsta nije validna
+This currency is already exist  : Ova valuta već postoji
+Campaign name is empty : Polje Naziv kampanje je prazno
+Something wrong  : Nešto nije uredu
+Register id errors : Greške u registarskom ID-u
+Date of begin is not valid  : Datum početka nije ispravan
+Offer id is messing : Nedostaje ID ponude
+Store id is not valid : ID radnje nije ispravan
+Password is not valid : Šifra nije ispravna
+Token isn t valid : Token nije ispravan
+The password must be at least 6 characters : Šifra mora imati najmanje 6 znakova
+Reset error : Reset error
+Your login not exist or you have exceeded the limit of sending : Vaša prijava ne postoji ili ste prekoračili limit u slanju
+Error (SenderId isn't valid!) : Greška (ID pošiljaoca nije ispravan!)
+login or password are not valid  : prijava ili šifra nisu ispravni
+Name field is empty : Polje naziv je prazno
+Your email address is already existing !! : Korisnički profil sa ovom email adresom već postoji !!
+Your position is not specified or it is invalid : Vaša lokacija nije utvrđena ili nije ispravna
+Begin date is not valid : DAtum početka nije ispravan
+Name error : Greška u Nazivu
+Email error : Greška u Email-u
+
+
+Test3: Test3
+All notifications are received and viewed by users : Korisnici su primili i vidjeli sve notifikacije
+All notifications are pushed to closer users : Sve notifikacije su poslane direktno korisnicima u blizini
+have received the notification : Notifikacije su primljene
+Delete : Izbriši
+reviews : recenzije
+Number max pushes per campaign :  Maximalan broj direktnih(push) notifikacija po kampanji
+Information : Informacija
+Maps api key : Api ključ mapa
+Firebase key : Firebase ključ
+Pseudo or Mail : Pseudo ili Mail
+
+#version 1.4.2
+To test the campaign in debug mode, you must be sure that at least one shop, event or offer is created : Da testirate kampanju u načinu za ispravljanje greški morate imati jednu radnju, jedan događaj ili jednu ponudu napravljenu.
+Select campaign type  : Odaberite vrstu kampanje
+
+
+
+######
+Please select a photo: Odaberite fotografiju
+
+DeepLinkingIntro: Deeplinks je koncept koji pomaže korisnicima da se kreću između web-a i aplikacije. To je URL koji navodi korisnike na određen sadržaj u aplikaciji.
+You have new notification: Imate novu notifikaciju

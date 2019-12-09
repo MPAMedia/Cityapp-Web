@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = BASE_URL;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+$config['uri_protocol']	= 'AUTO';
 
 /*
 |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -158,7 +158,7 @@ $config['composer_autoload'] = FALSE;
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@';
 
 /*
 |--------------------------------------------------------------------------
@@ -183,9 +183,10 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |
 */
 $config['enable_query_strings'] = FALSE;
-$config['controller_trigger'] = 'c';
-$config['function_trigger'] = 'm';
-$config['directory_trigger'] = 'd';
+$config['controller_trigger']	= 'c';
+$config['function_trigger']		= 'm';
+$config['directory_trigger']	= 'd'; // experimental not currently in use
+
 
 /*
 |--------------------------------------------------------------------------
@@ -223,7 +224,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = _LOGS;
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +325,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'hgdT954VfBNmSkVS84tVNBu'.CRYPTO_KEY;
 
 /*
 |--------------------------------------------------------------------------
@@ -378,9 +379,9 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_cookie_name'] = 'ci_session_'.CRYPTO_KEY;
+$config['sess_expiration'] = 3600*24*360;
+$config['sess_save_path'] =   ( SESS_USE_LOCAL_CACHE == true ? NULL  : FCPATH . 'application/cache/sessions/' );
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
@@ -432,7 +433,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -521,3 +522,36 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+if(!defined("SMTP_SERVER_ENABLED"))
+    define("SMTP_SERVER_ENABLED",FALSE);
+
+if(!defined("SMTP_HOST"))
+    define("SMTP_HOST","");
+
+if(!defined("SMTP_PORT"))
+    define("SMTP_PORT","456");
+
+if(!defined("SMTP_USER"))
+    define("SMTP_USER","");
+
+if(!defined("SMTP_PASS"))
+    define("SMTP_PASS","");
+
+
+$config['email_smtp_enabled']    = SMTP_SERVER_ENABLED;
+$config['email_protocol']   = "smtp";
+$config['email_smtp_host']  = SMTP_HOST;
+$config['email_smtp_port']  = SMTP_PORT;
+$config['email_smtp_user']  = SMTP_USER;
+$config['email_smtp_pass']  = SMTP_PASS;
+$config['email_mailtype']   = 'html';
+$config['email_charset']    = 'utf-8';
+
+
+$config['modules_locations'] = array(
+    APPPATH . 'modules/' => '../modules/',
+    APPPATH . '../modules/' => '../../modules/',
+);
+
+

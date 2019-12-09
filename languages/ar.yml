@@ -1,0 +1,393 @@
+#Configuration
+config:
+    name: العربية
+    version: 1.0
+    dir: rtl
+
+#key            #value
+Hello : مرحبا
+Welcome : أهلا بك
+
+#Login page
+Login : تسجيل الدخول
+Login_error : خطأ في تسجيل الدخول
+Error : خطأ
+Canceled : ألغيت
+Completed : منجز
+FORGET PASSWORD  : هل نسيت كلمة المرور?
+dont_have_account : ليس لديك حساب؟
+Forgot_Password : هل نسيت كلمة المرور
+Login_seccessfully  : أنت متصل بنجاح
+
+
+#DASHBAORD
+Total_Stores : إجمالي المتاجر
+Total_Events : إجمالي الأحداث
+Total_Customers : إجمالي العملاء
+Total_Campaigns : إجمالي الحملات
+Overview: نظرة عامة
+Recently_Added : اضاف في الأونة الأخيرة
+Last_reviews  : أخر التعليقات
+View_all_stores : عرض جميع المتاجر
+
+#Menu items
+Home : الصفحة الرئيسية
+Offers : عروض
+Manage Events : إدارة الأحداث
+Manage Customers : إدارة العملاء
+Categories : الاقسام
+Compaigns : حملات
+Application : لوحة الإعدادات
+Events : أحداث
+Add_new : اضف جديد
+All_stores : جميع المتاجر
+All Offers : كل العروض
+My_stores : متجري
+All Campaigns : جميع الحملات
+My campaigns : حملاتي
+My Offers: عروضي
+Pushed : نشرت
+Completed : منجز
+Campaigns (No-valid) : الحملات (غير منشورة)
+Campaigns : حملات
+All Campaigns : جميع الحملات
+My campaigns : حملاتي
+Completed : منجز
+Campaigns (No-valid) : الحملات (غير منشورة)
+Add new: إضافة جديدة
+
+#Frontend App
+Description_app :  هو تطبيق بحث تجاري مبتكر محلي مع وظيفة بحث ذكية يمكنها مساعدتك في العثور على أعمال مختلفة في منطقة بسهولة. يحتوي هذا التطبيق على مدير محدد لمخزن المواقع يتيح لك إدارة المتاجر والفئات والإشعارات ومالك الأعمال والأحداث والعروض
+Setup_easy_desc : لا برمجة ، إعداد أسهل وأسرع باستخدام نماذج التكوين
+Advanced_setting_desc : إعدادات مبسطة ، تحكم كامل في التطبيق (الشعار ، الاسم ، access limitations ,  radius , notification العملات ...)
+Make_business_desc  : تحسين عملك مع هذا التطبيق
+Beautiful_ui : البطاقات الجميلة والرسوم المتحركة والإشعارات التي تعرض لك ما هو مهم من حولك
+Cutomize_app_desc  : لا يتطلب أي مهارات البرمجة ، التطبيق سهل التهيئة والتخصيص.
+Chat_desc : يمكنك الدردشة مع جيرانك وأصحاب الشركات دون حدود ، فقط تسجيل الدخول إلى التطبيق تمكين GPS الخاص بك ، ثم سوف تحصل على جميع الأشخاص المهمين.
+Gps_des :  تعتمد NEARBYSTORES على موقعك لإعطائك جميع الأشياء المثيرة للاهتمام بالقرب منك ، لذا لا تنس تمكين GPS قبل استخدام التطبيق.
+Keep_it_controle :  لوحة القيادة تمنحك رؤية كاملة لاستخدام التطبيق. الرسوم البيانية والجداول موجودة لتمنحك تتبع أفضل.
+Push_offers : أرسل إشعارات تلقائية إلى عميلك بنقرة واحدة لإعلامه بالعروض الجديدة بجواره ، ويمكنك أكثر من ذلك تنظيم المحتوى الخاص بك في حملة ودفعه مباشرة إلى المستخدمين.
+Manage_customers :  بصفتك مشرفًا ، يحق لك إدارة عملائك ومتاجرهم ، بناءً على نوع الاشتراك الذي تقدمه ، يمكنك تقييد الحقوق للمستخدمين.
+Support_multi_language : يمكنك الانتقال إلى لغتك المفضلة بنقرة بسيطة.
+Advanced_dashboard_desc : ابق دائمًا على علم بتطبيقك بفضل لوحة القيادة الجميلة.
+Nearby_stores_features :  مدمج به موقع جغرافي دقيق يسمح لعملائك بالتوجيه والوصول إلى منافذ المتاجر الخاصة بك بطريقة أسهل.
+Contact_us_desc : نحن نقدم دعما سريعا وموثوقا لعملائنا ، سواء كان استفسار ، استكشاف الأخطاء وإصلاحها ، التخصيص والطلبات الخاصة. إذا كنت بحاجة إلى مساعدة في التثبيت ، فما عليك سوى إرسال رسالة من هذا النموذج.
+you_dont_have_permission: ليس لديك إذن لتشغيل هذا الاستعلام، يرجى المحاولة لاحقا!
+Are you sure?: هل أنت واثق؟
+Are you sure you want to delete it : هل أنت متأكد أنك تريد حذف ذلك
+
+
+#configuration
+Customer_can_publish_own_event_auto: يمكن للعميل نشر الحدث الخاص به دون تأكيد المشرف
+Number_campaigns_max_monthly: عدد الحملات القصوى شهريا
+Number items per page: العناصر المسموح بها لكل صفحة
+Number stores per page: المتاجر المسموح بها لكل صفحة
+Download app: تحميل التطبيق
+Dashboard Color : اللون
+Upload limitation : تحميل القيود
+Back-office_logo: الشعار
+Crypto_key: Crypto key
+Enable Offer: تمكين العرض
+Enable Event: تمكين الحدث
+Default_language: اللغة الافتراضية
+User subscription : اشتراك المستخدم
+Campaign config : تهيئة الحملة
+Welcome message : رسالة ترحيب
+Optional field : حقل اختياري
+Dashboard analytics :  تحليلات لوحة التحكم
+Enable Messages From Dashboard : تمكين الرسائل من لوحة التحكم
+Allow dashboard messenger to owners : السماح لصندوق البريد الوارد في لوحة التحكم بالمالكين
+Enable chat with firebase :  تمكين الدردشة مع فيريباس
+Should be enabled from app client : يجب تمكين من التطبيق
+Number_max_of_stores : المتاجر المسموح بها
+Number_events_max_monthly : الأحداث المسموح بها شهريا
+Number campaigns max monthly :  الحملات المسموح بها شهريا
+Number_offers_max_monthly : العروض المسموح بها شهريا
+Email_verificaion : تأكيد بواسطة البريد الالكتروني
+User_config : تكوين المستخدم
+App_name : اسم التطبيق
+Default_email : البريد الإلكتروني الافتراضي
+Back-office_ logo : شعار
+Dashborad_config : إعداد لوحة التحكم
+Number_items_per_page : عدد العناصر في الصفحة
+Copy_this_key_your_android_res : نسخ هذا المفتاح في ملف الموارد android الخاص بك "app_config.xml"
+Number_stores_per_page : عدد المتاجر في كل صفحة
+Enable_store : تمكين المتجر
+Customer_can_publish_own_store_auto : يمكن للعميل نشر متجره الخاص دون تأكيد المشرف
+Default_timezone : المنطقة الزمنية الافتراضية
+Default _anguage : اللغة الافتراضية
+Add_new_currency : إضافة عملة جديدة
+Language : لغة
+Without_validation_by_admin : دون التحقق من صحة من قبل المشرف
+Push_campaign_auto : نشر الحملة تلقائيا
+Target_raduis : استهداف القطر (كم)
+Number_max_pushes_per_campaign : عدد الدفعات المسموح بها في كل عملية نشر للحملة
+Use_campaign_with_crontab : استخدام الحملة مع "CronJob"
+you_can_push_10_campaigns_for_every_10_minutes :  يمكنك نشر 10 حملات لكل 10 دقيقة
+Add_this_url_in_cronTab_in_your_cpanel  : إضافة هذا الرابط في "CronJob" في لوحة التحكم "cpanel" الخاصة بك
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : CronJob عدد الدفعات المسموح بها في كل تنفيد لل
+Messages Config : إعداد الرسائل
+
+#Messages
+We could not find the page you were looking for : تعذر العثور على الصفحة التي تبحث عنها
+Meanwhile, you may : وفي الوقت نفسه، قد
+return to the home page : العودة إلى الصفحة الرئيسية
+or try using the search form : أو حاول استخدام نموذج البحث
+Are you sure that you want to delete this store : هل أنت متأكد من أنك تريد حذف هذا المتجر
+Are you sure that you want to delete this Event : هل أنت متأكد من أنك تريد حذف هذا الحدث
+Are you sure that you want to delete this user :  هل أنت متأكد من أنك تريد حذف هذا المستخدم
+The installation folder represents a danger : يمثل مجلد التثبيت خطرا
+Please remove install directory  : الرجاء إزالة مجلد التثبيت
+Account without verification! : الحساب بدون التحقق!
+We've sent mail verification to your mailbox. : لقد تم التحقق من البريد المرسل إلى صندوق البريد.
+Delete_confirmation : هل أنت متأكد من أنك تريد حذف هذا المتجر!
+
+
+#Compaign
+Alert_compaign : نشر حملات إعلانية للأحداث والعروض أو المتاجر الجديدة للمستخدمين الخاص بك.
+Type campaign : نوع الحملة
+No Campaigns : لا حملات
+Offer is expired : انتهت صلاحية العرض
+That offer will  expired in  : ستنتهي صلاحية هذا العرض
+Edit offer : تعديل العرض
+This campaign will be displayed to %s customers within %s KM : سيتم عرض هذه الحملة على %1$s عملاء ضمن %2$s كم
+Are you sur to duplicate this campaign ? : هل تريد بالتأكيد تكرار هذه الحملة؟
+
+#Global
+Telephone : هاتف
+Action  : Action
+Rating  : تقييم
+Allow : السماح
+Deny : رفض
+Your account has created  : تم إنشاء حسابك
+Success  : نجاح
+No data found  : لاتوجد بيانات
+Enter your email : أدخل بريدك الإلكتروني
+Title : عنوان
+Reset  :  إعادة تعيين
+Connect : الاتصال
+Pending : قيد الانتظار
+App name : اسم التطبيق
+Symbol : رمز
+Cancel  : إلغاء
+Format : شكل العملة
+Name : اسم
+Full name: الاسم الكامل
+config_sidebar:  إعداد
+MENU: قائمة
+All Events: كل الأحداث
+My events: أحداثي
+All Compaigns: جميع الحملات
+My Compaigns: حملاتي
+Search : بحث
+Enabled: تمكين
+Create your store: إنشاء متجرك
+Detail: التفاصيل
+Add new offer: إضافة عرض جديد
+Date Begin: تاريخ البدء
+Date End: تاريخ الانتهاء
+Offer: عرض
+Published: نشرت
+Finished: منتهي
+Disabled: غير متاح
+Create new campaign: إنشاء حملة جديدة
+Select campaign type: حدد نوع الحملة
+Select event: حدد الحدث
+Select offer: حدد العرض
+Push: نشر الحملة
+Duplicate: كرر
+Create: إنشاء
+Role Type  :  نوع الدور
+View all stores: عرض جميع المتاجر
+Owner: مالك
+Store: متجر
+Campaigns : حملات
+Send password : إرسال كلمة المرور
+We've sent new password to your mailbox :لقد أرسلنا كلمة مرور جديدة إلى صندوق البريد
+Profile  : الملف الشخصي
+Logout  : الخروج
+Add : إضافة
+Toggle navigation : تبديل
+Save : حفض
+Currencies : العملات
+Default_currency  : العملة الافتراضية
+signup : سجل
+Reviews : التعليقات
+Stores  : متاجر
+Store : متجر
+Confirm : أكد
+Delete : حذف
+Close : غلق
+Update_your_store : تحديث المتجر
+Drag the marker to get the exact position: اسحب العلامة للحصول على الموضع الدقيق
+Add_new_offer : إضافة عرض جديد
+Create : إنشاء
+Clear : إفراغ
+Add new category : إضافة فئة جديدة
+Edit Category: تحديث الفئة
+Category name : اسم التصنيف
+Offer percent : النسبة المئوية للعرض
+Offer price by  : سعر العرض حسب
+Date end  : تاريخ الانتهاء
+Date begin  : تاريخ البدء
+Description : وصف
+Offers :  عروض
+Targeting estimation : تقدير الاستهداف
+Will end at :سوف تنتهي في
+No Offers : لا عروض
+Events : أحداث
+Event : حدث
+Create Event : انشاء حدث
+Name : اسم
+Image: صورة
+Images : صور
+Event name : اسم الحدث
+Address  : عنوان
+Status : الحالة
+Username : اسم المستخدم
+Email  : البريد الإلكتروني
+WebSite : موقع الكتروني
+Access Role  : وظيفة
+Status  : الحالة
+Customers : الزبائن
+Type : نوع
+Login : تسجيل الدخول
+Last visited : آخر زيارة
+No-Confirmed : غير مؤكد
+Confirmed : تم تأكيد
+Admin : مشرف
+Owner : مالك
+Customer : زبون
+Select store  : حدد المتجر
+Number of stores :  عدد من المتاجر
+Create new User : إنشاء مستخدم جديد
+Create new : إنشاء جديد
+Confirm Password : تأكيد كلمة المرور
+Password  : كلمه السر
+Phone Number  : رقم الهاتف
+Number of events monthly : عدد الأحداث شهريا
+Campaigns monthly : عدد الحملات شهريا
+Number of offers monthly  : عدد العروض الشهرية
+Note : ملحوظة
+Confirm  : أكد
+Store Name : اسم المتجر
+Category : الفئة
+Status : الحالة
+User configuration: إعداد المستخدم
+setup_successful : تتبيث تم بنجاح
+have_already_account  : هل لديك حساب
+
+
+
+
+#Form validation messages
+Access denied : تم الرفض
+Sorry you don't have permission to do it : عذرا، ليس لديك إذن للقيام بذلك
+User not created  !!  : لم يتم إنشاء المستخدم !!
+You don't have an account . could you please create it !!  : ليس لديك حساب. يمكن أن يرجى إنشاء ذلك !!
+Store already exist  : المتجر موجود بالفعل
+Login invalid   : تسجيل الدخول غير صالح
+Empty login  : حقل المستخدم فارغ
+Empty password  : حقل كلمة المرور فارغ
+Check your confirm password  : تحقق من كلمة مرور
+Sorry your account is locked !!  : تم توقيف حسابك
+Auth error : خطأ في الإتصال
+user not found : المستخدم ليس موجود
+Username is invalid or already exist! : اسم المستخدم غير صالح أو موجود بالفعل!
+This name is already exist : هذا الاسم موجود من قبل
+username is empty : حقل اسم المستخدم فارغ
+Empty Address  : حقل العنوان فارغ
+User not logged in : لم يتم تسجيل دخول المستخدم
+Your mail is  not valid : بريدك غير صالح
+Your mail is empty : حقل البريد فارغ
+Miss authentication to access this page : لايمكن الدخول لهذه الصفحة بدون تسجيل الدخول
+this username or email is already exist : هذا اسم المستخدم أو البريد الإلكتروني موجود بالفعل
+You dont have the access to delete this post : ليس لديك حق الوصول لحذف هذه المشاركة
+user not selected : لم يتم تحديد المستخدم
+username field is empty : حقل اسم المستخدم فارغ
+username field is invalid : حقل اسم المستخدم غير صالح
+forgot password : هل نسيت كلمة المرور
+missing mac address : مفقود عنوان ماك
+Invalid mac_address : عنوان ماك غير صالح
+Store_id is messing : معرف المتجر مفقود
+Oops! Page not found : وجه الفتاة! الصفحة غير موجودة
+Store name is empty : اسم المتجر فارغ
+Store name is not valid  : اسم المتجر غير صالح
+Store address is empty : عنوان المتجر فارغ
+Phone number is empty !! : رقم الهاتف فارغ !!
+Phone number is invalid !! : رقم الهاتف غير صالح !!
+store already : مخزن بالفعل
+Category is not set  : لم يتم تعيين الفئة
+Store not created  !!  : لم يتم إنشاء المتجر
+location not found !!  : لم يتم العثور على الموقع !!
+Store not specified !! : متجر غير محدد !!
+You should delete all  stores from this category !! : يجب حذف جميع المخازن من هذه الفئة !!
+Category not found !! : لم يتم العثور على فئة !!
+Category is empty  !! : الفئة فارغة !!
+Category name should no be empty !! : يجب ألا يكون اسم الفئة فارغا !!
+Invalid event name : اسم حدث غير صالح
+Invalid description : وصف غير صالح
+description is empty : الوصف فارغ
+Invalid phone number : رقم الهاتف غير صحيح
+Address is empty : العنوان فارغ
+Name is empty : الاسم فارغ
+date begin format not valid ! : تاريخ البداية غير صالح!
+date end format not valid ! : تنسيق نهاية غير صالح
+Enter a valid URL !! : أدخل عنوان الموقع صالحا !!
+your position  is not found ! : لم يتم العثور على موقفكم!
+This name is already exist !!   : هذا الاسم موجود بالفعل !!
+event  not created  !!  : لم يتم إنشاء الحدث !!
+event  not found  !!  : لم يتم العثور على الحدث !!
+Event not specified !! : لم يتم تحديد الحدث !!
+no message to send  : لا توجد رسالة لإرسالها
+This operation is denied in demo mode : يتم رفض هذه العملية في هذا الإصدار
+You don't have permission to do it! :  ليس لديك إذن للقيام بذلك!
+You have exceeded the maximum number of events : لقد تجاوزت الحد الأقصى لعدد الأحداث
+You have exceeded the maximum number of campaigns : لقد تجاوزت الحد الأقصى لعدد الحملات
+You have exceeded the maximum number of stores : لقد تجاوزت الحد الأقصى لعدد المتاجر
+Status not found : لم يتم العثور على الحالة
+This currency is already exist  : هذه العملة موجودة بالفعل
+Please_select_store : الرجاء تحديد المتجر
+mail_verification : التحقق من البريد
+Type is not valid : النوع غير صالح
+This currency is already exist  : هذه العملة موجودة بالفعل
+Campaign name is empty : اسم الحملة فارغ
+Something wrong  : هناك خطب ما
+Register id errors : خطأ في معرف التسجيل
+Date of begin is not valid  : تاريخ البداية غير صالح
+Offer id is messing : معرف العرض مفقود
+Store id is not valid : معرف المتجر غير صالح
+Password is not valid : كلمة المرور غير صالحة
+Token isn t valid : الرمز المميز غير صالح
+The password must be at least 6 characters : يجب أن تتكون كلمة المرور من 6 أحرف على الأقل
+Reset error : إعادة تعيين الخطأ
+Your login not exist or you have exceeded the limit of sending : تسجيل الدخول الخاص بك غير موجود أو كنت قد تجاوزت الحد من الإرسال
+Error (SenderId isn't valid!) : خطأ (SenderId غير صالح!)
+login or password are not valid  : تسجيل الدخول أو كلمة المرور غير صالحة
+Name field is empty : حقل الاسم فارغ
+Your email address is already existing !! : عنوان بريدك الإلكتروني موجود بالفعل !!
+Your position is not specified or it is invalid : لم يتم تحديد موضعك أو أنه غير صالح
+Begin date is not valid : تاريخ البداية غير صالح
+Name error : خطأ في الاسم
+Email error : خطأ في البريد الإلكتروني
+Code: الرمز
+Manage Stores: إدارة المتاجر
+Messages: الرسائل
+Photo: الصورة
+
+April: أبريل
+May: مايو
+June: يونيو
+July: يوليو
+August: أغسطس
+September: سبتمبر
+October: أكتوبر
+November: نوفمبر
+December: ديسمبر
+January: يناير
+March: مارس
+February: فبراير
+
+Fast-Food  :  الطعام السريع
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.
+Pseudo or Mail: البريد الإلكتروني أو اسم المستخدم
