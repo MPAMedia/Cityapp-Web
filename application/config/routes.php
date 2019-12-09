@@ -1,6 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
@@ -19,13 +17,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-|	https://codeigniter.com/user_guide/general/routing.html
+|	http://codeigniter.com/user_guide/general/routing.html
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
 | -------------------------------------------------------------------------
 |
-| There are three reserved routes:
+| There area two reserved routes:
 |
 |	$route['default_controller'] = 'welcome';
 |
@@ -35,20 +33,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 |	$route['404_override'] = 'errors/page_missing';
 |
-| This route will tell the Router which controller/method to use if those
-| provided in the URL cannot be matched to a valid route.
+| This route will tell the Router what URI segments to use if those provided
+| in the URL cannot be matched to a valid route.
 |
-|	$route['translate_uri_dashes'] = FALSE;
-|
-| This is not exactly a route, but allows you to automatically route
-| controller and method names that contain dashes. '-' isn't a valid
-| class or method name character, so it requires translation.
-| When you set this option to TRUE, it will replace ALL dashes in the
-| controller and method URI segments.
-|
-| Examples:	my-controller/index	-> my_controller/index
-|		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
+
+$route['default_controller'] = "cms/pages";
+$route['404_override'] = 'cms/error404';
 $route['translate_uri_dashes'] = FALSE;
+
+
+
+$route[__ADMIN.'']   = "cms/admin/home";
+$route[__ADMIN.'/(.+)/(.+)']   = "$1/admin/$2";
+
+
+$route['ajax/(.+)/(.+)/(.+)']       = "$1/ajax/$2/$3";
+$route['ajax/(.+)/(.+)']       = "$1/ajax/$2";
+
+$route['api/1.0/(.+)/(.+)']        = "$1/api/$2";
+$route['api/(.+)/(.+)/(.+)']        = "$1/api/$2/$3";
+$route['api/(.+)/(.+)']        = "$1/api/$2";
+
+//support all routes modules
+
+$route['setting/(.+)']          = "setting/$1";
+$route['campaign/(.+)']         = "campaign/$1";
+$route['category/(.+)']         = "category/$1";
+$route['event/(.+)']            = "event/$1";
+$route['cms/(.+)']              = "cms/$1";
+$route['messenger/(.+)']        = "messenger/$1";
+$route['notification/(.+)']     = "notification/$1";
+$route['offer/(.+)']            = "offer/$1";
+$route['packmanager/(.+)']      = "packmanager/$1";
+$route['uploader/(.+)']         = "uploader/$1";
+$route['user/(.+)']             = "user/$1";
+$route['pack/(.+)']             = "pack/$1";
+$route['payment/(.+)']             = "payment/$1";
+
+
+
+$route['(.+)']        = "cms/pages/$1";
+
+
+
+
+/* End of file routes.php */
+/* Location: ./application/config/routes.php */

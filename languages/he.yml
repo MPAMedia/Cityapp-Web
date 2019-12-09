@@ -1,0 +1,276 @@
+#Configuration de la langue developped by Amine
+config:
+    name: עברית
+    version: 1.0
+    dir: rtl
+
+#key #value
+Hello : שלום
+Welcome : ברוכים הבאים
+
+Total_Stores : סה"כ חנויות
+Total_Events : סה"כ אירועים
+Total_Customers : סה"כ לקוחות
+Total_Campaigns : סה"כ מסעות פרסום
+Campaigns : קמפיינים
+
+#Menu items
+Home : דף הבית
+Manage Stores: ניהול חנויות
+All stores : כל החנויות
+My_stores : החנויות שלי
+All_stores: כל החנויות
+
+
+Offers : הצעות
+Manage Events : ניהול אירועים
+Manage Customers : ניהול לקוחות
+Categories : קטגוריות
+Compaigns : קמפיינים
+Application : יישום
+Events : אירועים
+Add_new : הוסף חדש
+All Campaigns : כל קמפיינים
+My campaigns : קמפיינים הפרסום שלי
+Pushed : דחף
+Completed : הושלם
+Campaigns (No-valid) : קמפיינים (ללא תוקף)
+Campaigns : קמפיינים
+All Campaigns : כל מסעות הפרסום
+My campaigns : מסעות הפרסום שלי
+Pushed : דחף
+Completed : הושלם
+Campaigns (No-valid) : קמפיינים (ללא תוקף)
+Name : שֵׁם
+Enter your email : הכנס את האימייל שלך
+Reset :  אִתחוּל
+Connect : לְחַבֵּר
+
+
+#Application
+FORGET PASSWORD : תשכח את הסיסמה
+Send password : שלח סיסמה
+We've sent new password to your mailbox : שלחנו סיסמה חדשה לתיבת הדואר שלך
+Number_max_of_stores : חנויות מותרות
+Number_events_max_monthly : אירועים מותר
+Number campaigns max monthly :  מסעות פרסום מותרים לשימוש
+Number_offers_max_monthly : הצעות מותר
+Email_verificaion : אימות אימייל
+User_config : תצורת משתמש
+App_name : שם האפליקציה
+Default_email : דוא"ל ברירת מחדל
+Back-office_ logo : לוגו למשרד האחורי
+Dashborad_config : תצורת Dashborad
+Number_items_per_page : מספר פריטים לעמוד
+Copy_this_key_your_android_res : העתק מפתח זה בקובץ המשאבים של Android שלך "app_config.xml"
+Number_stores_per_page : מספר חנויות בכל דף
+Enable_store : הפעל את החנות
+Customer_can_publish_own_store_auto : הלקוח יכול לפרסם את החנות שלו ללא אישור מנהל
+Default_timezone : אזור זמן ברירת מחדל
+Default _anguage : שפת ברירת מחדל
+Add_new_currency : הוסף מטבע חדש
+Language : שפה
+Profile : פּרוֹפִיל
+Logout : להתנתק
+Add : לְהוֹסִיף
+Toggle navigation : ניווט בניווט
+Without_validation_by_admin : ללא אימות על ידי מנהל
+Push_campaign_auto : לחץ על אוטומטי של מסע פרסום
+Target_raduis : קוטר מיקוד (ק"מ)
+Number_max_pushes_per_campaign : דחיפות מותרות לכל מסע פרסום
+Use_campaign_with_crontab : השתמש במסע פרסום עם crontab
+you_can_push_10_campaigns_for_every_10_minutes :  אתה יכול לדחוף 10 מסעות פרסום עבור כל 10 דקות
+Add_this_url_in_cronTab_in_your_cpanel : הוסף כתובת אתר זו ב- cronTab ב- cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : דחיפות מותר לכל מסע פרסום עם crontab עבור כל ריצה
+Save : להציל
+Currencies : מטבעות
+Default_currency : מטבע ברירת מחדל
+signup : הירשם
+
+#Dashboard
+Overview: סקירה כללית
+Recently_Added : נוספו לאחרונה
+Last_reviews : ביקורות אחרונות
+Reviews : ביקורות
+Stores : חנויות
+Confirm : לְאַשֵׁר
+Delete_confirmation : האם אתה בטוח שברצונך למחוק את החנות הזו !!
+Delete : לִמְחוֹק
+Close : לִסְגוֹר
+Update_your_store : עדכן את החנות שלך
+Drag the marker to get the exact position: גרור את הסמן כדי לקבל את המיקום המדויק
+Add_new_offer : הוסף הצעה חדשה
+Create : לִיצוֹר
+Clear : ברור
+Add new category : הוסף קטגוריה חדשה
+Edit Category: ערוך קטגוריה
+Category name : שם קטגוריה
+
+
+Offer percent : אחוז ההצעה
+Offer price by : מחיר המבצע לפי
+Date end : תאריך סיום
+Date begin : תאריך התחלה
+Description : תיאור
+Offers :  הצעות
+Targeting estimation : הערכת יעד
+Radius of : רדיוס של
+Km you will target : Km היעד
+nearby guests : אורחים בסביבה
+
+
+Will end at : יסתיים ב
+No Offers : אין הצעות
+
+Events : אירועים
+No data found : לא נמצאו נתונים
+Create Event : צור אירוע
+
+Name : שֵׁם
+Image: תמונה
+Images : תמונות
+Event name : שם אירוע
+Address : כתובת
+Status : סטָטוּס
+Username : שם משתמש
+Email : אֶלֶקטרוֹנִי
+
+
+WebSite : אתר אינטרנט
+Access Role : תפקיד גישה
+Status : סטָטוּס
+Customers : לקוחות
+Type : סוּג
+Login : התחברות
+Last visited : ביקר לאחרונה
+No-Confirmed : לא אושר
+Confirmed : מְאוּשָׁר
+Admin : מנהל מערכת
+Owner : בעלים
+Customer : צרכן
+Select store : בחר בחנות
+
+Number of stores :  מספר החנויות
+Create new User : צור משתמש חדש
+Create new : צור חדש
+Confirm Password : אשר סיסמה
+Password : סיסמה
+Phone Number : מספר טלפון
+Number of events monthly : מספר האירועים החודשיים
+Campaigns monthly : מספר מסעות הפרסום בחודש
+Number of offers monthly : מספר ההצעות החודשי
+Note : הערה
+Confirm : לְאַשֵׁר
+Store Name : שם חנות
+Category : קטגוריה
+Status : סטָטוּס
+
+User configuration:הגדרות משתמש
+
+
+#Messages
+We could not find the page you were looking for : לא הצלחנו למצוא את הדף שחיפשת
+Meanwhile, you may : בינתיים, אתה יכול
+Meanwhile, you may : בינתיים, אתה יכול
+return to the home page : חזור לדף הבית
+or try using the search form : או נסה להשתמש בטופס החיפוש
+Allow : להתיר
+Deny : לְהַכּחִישׁ
+Your account has created : החשבון שלך נוצר
+Success : הַצלָחָה
+Are you sure that you want to delete this store : האם אתה בטוח שברצונך למחוק את החנות הזו
+Are you sure that you want to delete this Event : האם אתה בטוח שברצונך למחוק אירוע זה
+Are you sure that you want to delete this user :  האם אתה בטוח שברצונך למחוק משתמש זה
+The installation folder represents a danger : תיקיית ההתקנה מייצגת סכנה
+Please remove install directory : הסר את תיקיית ההתקנה
+Account without verification! : חשבון ללא אימות!
+We've sent mail verification to your mailbox. : יש לנו אימות דואר שנשלח לתיבת הדואר שלך.
+
+
+#login
+
+dont_have_account : אין לך חשבון?
+Forgot_Password : שכחת את הסיסמא
+Login_seccessfully : אתה מחובר בהצלחה
+Telephone : טֵלֵפוֹן
+Action : פעולה
+Rating : דֵרוּג
+#Compaign
+Alert_compaign : לדחוף אירועים, הצעות או חנויות חדשות למשתמשים קרובים שלך.
+Type campaign : סוג מסע הפרסום
+No Campaigns : אין קמפיינים
+
+Offer is expired : ההצעה פג
+That offer will expired in : תוקף ההצעה יפוג ב
+
+Edit offer : ערוך הצעה
+
+#Frontend App
+Description_app : NEARBYSTORES הוא יישום חדשני מקומי לחיפוש עסקי עם פונקציונליות חיפוש חכם שיכול לעזור לך למצוא עסקים שונים באזור בקלות. יש לו מנהל רב עוצמה לאיתור מנהל המאפשר לך לנהל חנויות, קטגוריות, הודעה, בעל עסק, אירועים ומבצעים
+Setup_easy_desc : ללא קידוד, הגדרה קלה ומהירה יותר באמצעות טופסי תצורה
+Advanced_setting_desc : הגדרות פשוטות, שליטה מלאה על היישום (לוגו, שם, מגבלות גישה, raduis, הודעה, מטבעות ...)
+Make_business_desc : הגדל את ההמרות העסקיות שלך באמצעות האפליקציה הזו
+Beautiful_ui :  יפה כרטיסים, אנימציות והודעות אשר מראה לך מה חשוב סביבך
+Cutomize_app_desc :  זה לא דורש שום כישורי התכנות, היישום קל להגדיר ולהתאים אישית.
+Chat_desc : אתה יכול לשוחח עם השכנים שלך ואת בעלי עסקים ללא הגבלה, פשוט להיכנס לאפליקציה לאפשר GPS שלך ואז תקבל את כל האנשים החשובים.
+Gps_des : NEARBYSTORES מבוסס על המיקום שלך לתת לך את כל הדברים המעניינים ליד, אז אל תשכח להפעיל GPS לפני השימוש באפליקציה.
+Keep_it_controle : לוח המחוונים נותן לך נראות מלאה של השימוש ביישום. גרפים וטבלאות נוכחים לתת לך עקיבות טובה יותר.
+Push_offers : שלח הודעות דחיפה ללקוח שלך בלחיצה אחת כדי ליידע אותן על הצעות חדשות שלצידן, תוכל לארגן את התוכן שלך למסע פרסום ולדחוף אותו ישירות למשתמשים שלך.
+Manage_customers :  כמנהל יש לך את הזכות לנהל את הלקוחות שלך ואת החנויות שלהם, בהתאם לסוג המנוי שאתה מציע אתה יכול להגביל את הזכויות למשתמשים.
+Support_multi_language :  אתה יכול לעבור lanquage האהוב עליך בלחיצה פשוטה.
+Advanced_dashboard_desc : הישאר תמיד מעודכן לגבי הפתרון שלך הודות ללוח המחוונים היפה.
+Nearby_stores_features : Nearbystores מובנית עם מיקום גיאוגרפי המדויק המאפשר ללקוחות שלך כדי להגיע ולקבל את החנויות שקעים הדרך הקלה ביותר.
+Contact_us_desc :אנו מספקים תמיכה מהירה ואמינה ללקוחות שלנו, בין אם מדובר בפתרון בעיות, פתרון בעיות, התאמה אישית ובקשות מיוחדות. אם אתה זקוק לעזרה עם ההתקנה, פשוט שלח לנו טופס טופס טופס זה.
+
+
+
+MENU:  תַפרִיט
+All Events:  כל האירועים
+My events:  האירועים שלי
+All Compaigns:  כל מסעות הפרסום
+My Compaigns:  מסעות הפרסום שלי
+Download app:  הורד אפליקציה
+Back-office_logo:  הלוגו של לוח המחוונים
+Number_campaigns_max_monthly:  מספר מסעות הפרסום המקסימלי לחודש
+Crypto_key:  מקש הצפנה
+Number items per page:  פריטים מותרים בכל דף
+Number stores per page:  חנויות מותרות לעמוד
+Enable Offer:  הפעל הצעה
+Enable Event:  הפעל אירוע
+Customer_can_publish_own_event_auto:  הלקוח יכול לפרסם את האירוע שלו ללא אישור מנהל
+Default_language:  שפת ברירת מחדל
+Add_this_url_in_cronTab_in your_cpanel:  הוסף כתובת אתר זו ב- cronTab ב- cpanel
+Search:  לחפש
+Enabled:  מופעל
+Create your store:  צור את החנות שלך
+Detail:  פרט
+Add new offer:  הוסף הצעה חדשה
+Date Begin:  תאריך התחלה
+Date End:  תאריך סיום
+Offer:  הַצָעָה
+Published:  יצא לאור
+Finished:  גָמוּר
+Disabled:  נָכֶה
+Create new campaign:  צור מסע פרסום חדש
+Select campaign type:  בחר סוג מסע פרסום
+Select event:  בחר אירוע
+Select offer:  בחר הצעה
+Push:  לִדחוֹף
+Duplicate:  לְשַׁכְפֵּל
+Create:  לִיצוֹר
+Role Type :   סוג תפקיד
+
+#
+you_dont_have_permission:  אין לך הרשאה לשרת לנסות מאוחר יותר!
+View all stores:  הצג את כל החנויות
+Owner:  בעלים
+View all stores:  הצג את כל החנויות
+Store:  חֲנוּת
+
+
+View_all_stores :  הצג את כל החנויות
+Are you sure?:  האם אתה בטוח?
+
+Title :  כותרת
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.

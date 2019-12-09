@@ -1,0 +1,375 @@
+#Configuration
+config:
+    name: Portugues
+    version: 1.0
+
+#Compaign
+Alert_compaign : Push eventos, ofertas ou novas lojas para seus usuários próximos.
+Type campaign : Tipo de campanha
+No Campaigns : Nenhuma campanha
+Offer is expired : Oferta expirada
+That offer will expired in : Essa oferta expirará em
+Edit offer : Editar oferta
+This campaign will be displayed to %s customers within %s KM : Esta campanha será exibida para os clientes %s em %s KM
+Are you sur to duplicate this campaign ? : Você quer duplicar esta campanha?
+
+
+#key #value
+Hello : Olá
+Welcome : Bem Vindo(a)
+
+#Login page
+Login : Entrar
+Login_error : Erro ao Entrar
+Error : Erro
+Canceled : Cancelado
+Completed : Completado
+FORGET PASSWORD : ESQUECEU A SENHA
+dont_have_account : Não tem conta ?
+Forgot_Password : Esqueceu a senha
+Login_seccessfully : Você está conectado com sucesso
+
+
+#DASHBAORD
+Total_Stores : Total de Lojas
+Total_Events : Total de Eventos
+Total_Customers : Total de Clientes
+Total_Campaigns : Total de Campanhas
+Overview: Visão Geral
+Recently_Added : Adicionado recentemente
+Last_reviews : Últimos comentários
+View_all_stores : Ver todas as lojas
+
+#Menu items
+Home : HOME
+Offers : Ofertas
+Manage Events : Gerenciar Eventos
+Manage Customers : Gerenciar Clientes
+Categories : Categorias
+Compaigns : ?
+Application : Aplicação
+Events : Events
+Add_new : Adicionar Novo
+All_stores : Todas as lojas
+All Offers : Todas as ofertas
+My_stores : Minhas lojas
+All Campaigns : Todas as Campanhas
+My campaigns : Minhas campanhas
+Pushed : Pushed
+Completed : Concluído
+Campaigns (No-valid) : Campanhas (não válidas)
+Campaigns : Campanhas
+All Campaigns : Todas as Campanhas
+My campaigns : Minhas campanhas
+Pushed : Pushed
+Completed : Concluído
+Campaigns (No-valid) : Campanhas (não válidas)
+
+#Frontend App
+Description_app : NEARBYSTORES é um aplicativo inovador de pesquisa comercial local com uma funcionalidade de pesquisa inteligente que pode ajudá-lo a encontrar empresas diferentes em uma área com facilidade. Ele tem um poderoso administrador de localizador de lojas que permite gerenciar lojas, categorias, notificação, proprietário da empresa, eventos e ofertas.
+Setup_easy_desc : Sem codificação, configuração mais fácil e rápida usando formulários de configuração.
+Advanced_setting_desc : Configurações simplificadas, controle total do aplicativo (logotipo, nome, limitações de acesso, raio, notificação, moedas ...).
+Make_business_desc : Aumente sua conversão de negócios com este aplicativo.
+Beautiful_ui : Lindos cartões, animações e notificações que mostram o que é importante ao seu redor.
+Cutomize_app_desc : Não requer nenhuma habilidade de programação, o aplicativo é fácil de configurar e personalizar.
+Chat_desc : Você pode conversar com seus vizinhos e os empresários sem limite, basta acessar o aplicativo para ativar o seu GPS, então você vai ter todas as pessoas importantes.
+Gps_des : O NEARBYSTORES baseia-se na sua posição para lhe dar todas as coisas interessantes por perto, por isso não se esqueça de ativar o GPS antes de usar o aplicativo.
+Keep_it_controle : O Painel fornece visibilidade total do uso do aplicativo. Gráficos e Tabelas estão presentes para lhe dar uma melhor rastreabilidade.
+Push_offers : Envie notificações por push para seu cliente com um clique para informá-lo sobre novas ofertas ao lado, além de poder organizar seu conteúdo em uma campanha e enviá-lo diretamente para seus usuários.
+Manage_customers : Como administrador, você tem o direito de gerenciar seus clientes e suas lojas, dependendo do tipo de assinatura que você oferece, você pode restringir os direitos dos usuários.
+Support_multi_language : Você pode mudar para o seu idioma favorito com um simples clique.
+Advanced_dashboard_desc : Fique sempre informado sobre sua solução graças a um lindo painel de controle.
+Nearby_stores_features : Nearbystores é embutido com localização geográfica exata que permite aos seus clientes encaminhar e chegar às lojas de sua maneira mais fácil.
+Contact_us_desc : Nós fornecemos suporte rápido e confiável aos nossos clientes, seja uma requisição, solução de problemas, personalização e pedidos especiais. Se precisar de ajuda com a instalação, basta nos enviar um formulário de mensagem neste formulário.
+you_dont_have_permission: Você não tem permissão para executar essa consulta, tente mais tarde!
+Are you sure?: Você tem certeza?
+Are you sure you want to delete it : Tem certeza de que deseja excluí-lo?
+
+
+#configuration
+Customer_can_publish_own_event_auto: O cliente pode publicar seu próprio evento sem a confirmação do administrador
+Number_campaigns_max_monthly: Número de campanhas máximas mensais
+Number items per page: Itens permitidos por página
+Number stores per page: Lojas permitidas por página
+Download app: Baixar aplicativo
+Dashboard Color : Cor do painel
+Upload limitation : Limite de upload
+Back-office_logo: logotipo do painel
+Crypto_key: Chave de criptografia
+Enable Offer: Ativar oferta
+Enable Event: Ativar evento
+Default_language: Idioma padrão
+User subscription : Assinatura do usuário
+Campaign config : Configuração da campanha
+Welcome message : Mensagem de boas-vindas
+Optional field : Campo opcional
+Dashboard analytics : Análise do painel
+Enable Messages From Dashboard : Ativar mensagens do painel
+Allow dashboard messenger to owners : Permitir o messenger do painel aos proprietários
+Enable chat with firebase : Ativar bate-papo com o Firebase
+Should be enabled from app client : Deve ser ativado a partir do aplicativo cliente
+Number_max_of_stores : Lojas permitidas
+Number_events_max_monthly : Eventos permitidos por mês
+Number campaigns max monthly : campanhas permitidas por mês
+Number_offers_max_monthly : Ofertas permitidas por mês
+Email_verificaion : Verificação de e-mail
+User_config : Configuração do usuário
+App_name : Nome do aplicativo
+Default_email : E-mail padrão
+Back-office_ logo : Logotipo de back-office
+Dashborad_config : Configuração do painel
+Number_items_per_page : Número de itens por página
+Copy_this_key_your_android_res : Copie esta chave no seu arquivo de recursos do Android "app_config.xml"
+Number_stores_per_page : Número de lojas por página
+Enable_store : Ativar loja
+Customer_can_publish_own_store_auto : O cliente pode publicar sua própria loja sem confirmação administrativa
+Default_timezone : Fuso horário padrão
+Default _anguage : Idioma padrão
+Add_new_currency : Adicionar nova moeda
+Language : Língua
+Without_validation_by_admin : Sem validação por admin
+Push_campaign_auto : Push auto campanha
+Target_raduis : Diâmetro de segmentação (km)
+Number_max_pushes_per_campaign : Pushes permitido por campanha
+Use_campaign_with_crontab : Use campanha com crontab
+you_can_push_10_campaigns_for_every_10_minutes : você pode enviar 10 campanhas para cada 10 minutos
+Add_this_url_in_cronTab_in_your_cpanel : Adicione este url no cronTab no seu cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : Pushes permitido por campanha com crontab para cada execução
+Messages Config : Configuração de Mensagens
+
+#Messages
+We could not find the page you were looking for : Não foi possível encontrar a página que você estava procurando
+Meanwhile, you may : Enquanto isso, você pode
+Meanwhile, you may : Enquanto isso, você pode
+return to the home page : voltar para a página inicial
+or try using the search form : ou tente usar o formulário de pesquisa
+Are you sure that you want to delete this store : Tem certeza de que deseja excluir esta loja?
+Are you sure that you want to delete this Event : Tem certeza de que deseja excluir este evento?
+Are you sure that you want to delete this user : Tem certeza de que deseja excluir este usuário?
+The installation folder represents a danger : A pasta de instalação representa um perigo
+Please remove install directory : Por favor, remova a pasta de instalação
+Account without verification! : Conta sem verificação!
+We've sent mail verification to your mailbox. : Temos uma confirmação de e-mail enviado para sua caixa de correio.
+Delete_confirmation : Tem certeza de que deseja excluir esta loja !!
+
+#Global
+Telephone : Telefone
+Action : Ação
+Rating : Avaliação
+Allow : Permitir
+Deny : Negar
+Your account has created : Sua conta foi criada
+Success : Sucesso
+No data found : Nenhum dado encontrado
+Enter your email : Insira seu email
+Title : Título
+Reset : Restabelecer
+Connect : Conectar
+Pending : Pendente
+App name : Nome do aplicativo
+Symbol : Simbolo
+Cancel : Cancelar
+Format : Formato
+Name : Nome
+config_sidebar: Configuração
+MENU: MENU
+All Events: Todos os eventos
+My events: Meus eventos
+All Compaigns: Todas as campanhas
+My Compaigns: Minhas campanhas
+Search : Pesquisa
+Enabled: Ativado
+Create your store: Crie sua loja
+Detail: Detalhes
+Add new offer: Adicionar nova oferta
+Date Begin: Data de início
+Date End: Data final
+Offer: Oferta
+Published: Publicados
+Finished: Finalizado
+Disabled: Desativado
+Create new campaign: Criar nova campanha
+Select campaign type: Selecione tipo de campanha
+Select event: Selecione evento
+Select offer: Selecione oferta
+Push: Push
+Duplicate: Duplicado
+Create: Criar
+Role Type : Tipo de papel
+View all stores: Visualizar todas as lojas
+Owner: Proprietário
+Store: Loja
+Campaigns : Campanhas
+Send password : Enviar senha
+We've sent new password to your mailbox : Enviamos uma nova senha para sua caixa de correio
+Profile : Perfil
+Logout : Sair
+Add : Adicionar
+Toggle navigation : Alternar de navegação
+Save : Salvar
+Currencies : Moedas
+Default_currency : Moeda padrão
+signup : inscrever-se
+Reviews : Revisar
+Stores : Lojas
+Store : Loja
+Confirm : Confirme
+Delete : Excluir
+Close : Fechar
+Update_your_store : Atualize sua loja
+Drag the marker to get the exact position: Arraste o marcador para obter a posição exata
+Add_new_offer : Adicionar nova oferta
+Create : Criar
+Clear : Limpar
+Add new category : Adicionar nova categoria
+Edit Category: Editar Categoria
+Category name : Nome da Categoria
+Offer percent : Por cento da oferta
+Offer price by : Preço de oferta por
+Date end : Data final
+Date begin : Data de início
+Description : Descrição
+Offers : Ofertas
+Targeting estimation : Estimativa de segmentação
+Radius of : Raio de
+Km you will target : Km você irá mirar
+nearby guests : convidados próximos
+Will end at : Terminará em
+No Offers : Sem ofertas
+Events : Eventos
+Create Event : Criar Evento
+Name : Nome
+Image: Imagem
+Images : Imagens
+Event name : Nome do evento
+Address : Endereço
+Status : Status
+Username : Nome de usuário
+Email : E-mail
+WebSite : WebSite
+Access Role : Função de Acesso
+Status : Status
+Customers : Clientes
+Type : Tipo
+Login : Entrar
+Last visited : Última visita
+No-Confirmed : Não confirmado
+Confirmed : Confirmado
+Admin : Admin
+Owner : Proprietário
+Customer : Cliente
+Select store : Selecione loja
+Number of stores : Número de lojas
+Create new User : Criar novo usuário
+Create new : Crie um novo
+Confirm Password : Confirme a Senha
+Password : Senha
+Phone Number : Número de telefone
+Number of events monthly : Número de eventos mensais
+Campaigns monthly : número de campanhas mensais
+Number of offers monthly : Número de ofertas mensais
+Note : Nota
+Confirm : Confirme
+Store Name : Nome da loja
+Category : Categoria
+Status : Status
+User configuration: Configuração do usuário
+setup_successful : Configuração bem sucedida
+have_already_account : Já tem uma conta
+
+
+
+
+#Form validation messages
+Access denied : Acesso negado
+Sorry you don't have permission to do it : Desculpe, você não tem permissão para fazer isso
+User not created !! : Usuário não criado !!
+You don't have an account . could you please create it !! : Você não tem uma conta. você poderia criá-lo por favor?
+Store already exist : Loja já existe
+Login invalid : Login inválido
+Empty login : Login vazio
+Empty password : Senha vazia
+Check your confirm password : Verifique sua senha de confirmação
+Sorry your account is locked !! : Desculpe sua conta está bloqueada !!
+Auth error : Erro de autenticação
+user not found : usuário não encontrado
+Username is invalid or already exist! : O nome de usuário é inválido ou já existe!
+This name is already exist : Este nome já existe
+username is empty : nome de usuário está vazio
+Empty Address : Endereço vazio
+User not logged in : Utilizador não autenticado
+Your mail is not valid : Seu email não é válido
+Your mail is empty : Seu e-mail está vazio
+Miss authentication to access this page : Miss authentication to access this page
+this username or email is already exist : este nome de usuário ou e-mail já existe
+You dont have the access to delete this post : Você não tem o acesso para excluir esta postagem
+user not selected : usuário não selecionado
+username field is empty : campo de nome de usuário está vazio
+username field is invalid : o campo de nome de usuário é inválido
+forgot password : Esqueceu a senha
+missing mac address : endereço mac ausente
+Invalid mac_address : endereço mac inválido
+Store_id is messing : Store_id está bagunçando
+Oops! Page not found : Opa! página não encontrada
+Store name is empty : O nome da loja está vazio
+Store name is not valid : O nome da loja não é válido
+Store address is empty : O endereço da loja está vazio
+Phone number is empty !! : Número de telefone está vazio !!
+Phone number is invalid !! : O número de telefone é inválido !!
+store already : armazenar já
+Category is not set : A categoria não está definida
+Store not created !! : Loja não criada !!
+location not found !! : localização não encontrada !!
+Store not specified !! : Loja não especificada !!
+You should delete all stores from this category !! : Você deve excluir todas as lojas desta categoria !!
+Category not found !! : Categoria não encontrada !!
+Category is empty !! : Categoria está vazia !!
+Category name should no be empty !! : Nome da categoria não deve estar vazio !!
+Invalid event name : Nome do evento inválido
+Invalid description : Descrição inválida
+description is empty : descrição está vazia
+Invalid phone number : Número de telefone inválido
+Address is empty : O endereço está vazio
+Name is empty : Nome está vazio
+date begin format not valid ! : formato de data do início não é válida !
+date end format not valid ! : formato de data final não é válida !
+Enter a valid URL !! : Digite um URL válido !!
+your position is not found ! : sua posição não foi encontrada!
+This name is already exist !! : Este nome já existe !!
+event not created !! : evento não criado !!
+event not found !! : evento não encontrado !!
+Event not specified !! : Evento não especificado !!
+no message to send : nenhuma mensagem para enviar
+This operation is denied in demo mode : Esta operação é negada no modo de demonstração
+You don't have permission to do it! : Você não tem permissão para fazer isso!
+You have exceeded the maximum number of events : Você excedeu o número máximo de eventos
+You have exceeded the maximum number of campaigns : Você excedeu o número máximo de campanhas
+You have exceeded the maximum number of stores : Você excedeu o número máximo de lojas
+Status not found : Status não encontrado
+This currency is already exist : Esta moeda já existe
+Please_select_store : Por favor selecione loja
+mail_verification : verificação de email
+Type is not valid : Tipo não é válido
+This currency is already exist : Esta moeda já existe
+Campaign name is empty : O nome da campanha está vazio
+Something wrong : Algo errado
+Register id errors : Registrar erros de id
+Date of begin is not valid : A data de início não é válida
+Offer id is messing : Offer id is messing
+Store id is not valid : O ID da loja não é válido
+Password is not valid : Senha não é válida
+Token isn t valid : O token não é válido
+The password must be at least 6 characters : A senha deve ter pelo menos 6 caracteres
+Reset error : Reset error
+Your login not exist or you have exceeded the limit of sending : Seu login não existe ou você excedeu o limite de envio
+Error (SenderId isn't valid!) : Erro (SenderId não é válido!)
+login or password are not valid : login ou senha não são válidos
+Name field is empty : O campo de nome está vazio
+Your email address is already existing !! : Seu endereço de e-mail já existe!
+Your position is not specified or it is invalid : Sua posição não é especificada ou é inválida
+Begin date is not valid : A data de início não é válida
+Name error : Erro de nome
+Email error : Erro de E-mail
+
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.

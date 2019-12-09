@@ -1,0 +1,328 @@
+#Configuration de la langue developped by Amine
+config:
+    name: Français
+    version: 1.0
+
+#key            #value
+Hello : Salut
+Welcome : Bienvenu
+
+#login
+dont_have_account : Vous n'avez pas de compte ?
+Forgot_Password : Mot de passe oublié
+Login_seccessfully  : vous êtes connecté avec succès
+Telephone : Telephone
+Action  : Action
+Rating  : Évaluation
+Login : Connecter
+have_already_account  : Avoir déjà un compte
+signup : S'inscrire
+Send password  : Envoyer
+
+#HOME
+Total_Stores : Total des magasins
+Total_Events : Total des événements
+Total_Customers : Total des Clients
+Total_Campaigns : Total des campagnes
+Campaigns : campagnes
+
+#Menu items
+Home : Accueil
+Manage Stores: Gérer les magasins
+All_stores : Tous les magasings
+My_stores : Mes magasings
+Offers : Offres
+Manage Events : Gérer les événements
+All Events : Tous les événements
+My events : Mes événements
+All Offers : Tous les offres
+Manage Customers : Gérer les clients
+Customers : Clients
+Categories : Catégories
+Compaigns : Les campagnes
+All Compaigns : Tous les campagnes
+My Compaigns : Mes campagnes
+Pushed : Envoyées
+Completed : Terminées
+Campaigns (No-valid) : Campagnes non validées
+Download app : Télécharger l'application
+Application : Application
+Events : Evénements
+Stores : Magasins
+Add new : Ajouter un nouveau
+
+
+Image: Image
+Images : Images
+
+
+Lng  : Lng
+Lat : Lat
+Address : Adresse
+
+#Application
+Number_max_of_stores : Nombre de magasin  autorisé
+Number_events_max_monthly : Nombre d'événement autorisé par mois .
+Number_campaigns_max_monthly : Nombre  de campagnes autorisé par mois .
+Number_offers_max_monthly : Nombre d'offres autorisé par mois
+Copy_this_key_your_android_res : Copier la clé dans le fichier  "app_config.xml"  de votre répertoire resource mobile
+Email_verificaion : Vérification de l'adresse e-mail
+User_config : Config utilisateur
+App_name : Nom de l'application
+Default_email : Email par défaut
+Back-office_logo : Back-office logo
+Dashborad_config : Dashborad config
+Number_items_per_page : Nombre d'éléments par page
+Number_stores_per_page : Nombre de magasins par page
+Enable_store : Activer le magasin
+Customer_can_publish_own_store_auto : Le client peut publier son  propre magasin automatiquement
+Default_timezone : Fuseau horaire par défaut
+Default_language : Langue par défaut
+Add_new_currency : Ajouter une nouvelle devise
+Add : Ajouter
+Without_validation_by_admin : Sans validation par admin
+Push_campaign_auto : Push campaign auto
+Target_raduis :  Cible raduis
+Number_max_pushes_per_campaign :  Nombre maximum de pushes  par campagne
+Use_campaign_with_crontab : Utiliser la campagne avec crontab
+you_can_push_10_campaigns_for_every_10_minutes :  vous pouvez envoyer 10 campagnes toutes les 10 minutes
+Add_this_url_in_cronTab_in your_cpanel  : Ajoutez cette URL dans cronTab dans votre cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : Nombre max de pushes  par campagne avec cronjob dans chaque exécution
+Save : Enregistrer
+Currencies : Devise
+Default_currency  : Devise par défault
+Role Type : Type d'accès
+Auth error : Erreur d'authentification
+View Offers : Voir L'offre
+Start : Valable du
+End : Au
+End after : Expiré(e) avant
+Start after : Commence avant
+FEATURED : Recommandé
+Make it as featured  : Recommandé la boutiques
+
+
+
+
+
+
+#Compaign
+Alert_compaign : Pusher les événements, offres ou nouveaux magasins à vos clients proches .
+
+
+
+
+#Frontend App
+Description_app : NEARBYSTORES is an innovative local business search app with an intelligent search functionality that can help you find different businesses in an area easily.  It has a powerful store locator admin that allows you to manage stores, categories, notification, business owner, events and offers
+Setup_easy_desc : No coding , Easier and faster  Setup using configuration forms
+Advanced_setting_desc : Simplified settings, full control of the app ( logo, name , access limitations  , raduis , notification , Currencies ... )
+Make_business_desc  : Increase your business conversion with this app
+Beautiful_ui :  Beautiful Cards , animations and notifications that shows you what's important around you
+Cutomize_app_desc  :  It does not require any programming skills , the app is easy to configure and customize .
+Chat_desc : You can chat with your neighbours and the businesses owners without limit , just login to the app enable your GPS then you will get all  the important people   .
+Gps_des : The NEARBYSTORES is based on your position to give you all interesting things near by , so don't forget to enable GPS before using the app .
+Keep_it_controle : The dashboard gives you full visibility of the use of the application. graphs and tables are present to give you a better traceability .
+Push_offers : Send push notifications to your customer with one click to inform them of new offers next to them , more you can organize your content  into a compaign and push it directely to your  users  .
+Manage_customers :  As an administrator you have the right to manage your customers and their stores , depending on the type of subscription you offer you can restrict the rights to users .
+Support_multi_language :  You can switch to your favorite lanquage with a simple click .
+Advanced_dashboard_desc : Stay always informed about your solution thanks to a beautiful dashboard
+Nearby_stores_features : Nearbystores is built-in with exact geo location which allows your customers to route and get to your store outlets the easiest way.
+Contact_us_desc : We provide fast and reliable support to our customers, whether its an inquiry, troubleshooting, customization and special requests. If you need help with installation, just send us a message form this form .
+Account without verification : Le Compte n'est pas encore verifié  .
+We've sent mail verification to your mailbox : Nous avons envoyé un mail de confirmation a votre boite mail .
+The installation folder represents a danger : Le dossier d'installation représente un danger
+Please remove install directory  : Veuillez supprimer le répertoire d'installation !!
+Recently Added  : Récemment ajoutés
+Statistic : Statistique
+Stores : Magasins
+
+#Cconfig
+Enable Offer : Activer L'offre
+Enable_event : Activer L'Événement
+Customer_can_publish_own_event_auto : Le client peut publier son événement sans vérification par l'admin
+Crypto_key  : Clé de chiffrement
+Number stores per page : Nombre de magasing par page
+Number items per page : Nombre d'élement par page
+Logout : Déconnecter
+Profile : Profil
+
+
+MENU: MENU
+Download app: Télécharger l'application
+Back-office_logo: dashboard logo
+Number_campaigns_max_monthly: Nombre de campagnes max mensuel
+Crypto_key: Crypto key
+Number items per page: Nombre d'éléments par page
+Number stores per page: Nombre de magasins par page
+Enable Offer: Activer l'offre
+Enable Event: Activer l'événement
+Customer_can_publish_own_event_auto: Le client peut publier son propre événement automatique
+Add_this_url_in_cronTab_in your_cpanel: Ajoutez cette URL dans cronTab dans votre cpanel
+Search: Chercher
+Enabled: Activée
+Create your store: Créez votre magasin
+Detail: Détail
+Add new offer: Ajouter offre
+Date Begin: Date de début
+Date End: Date de fin
+Offer: Offre
+Published: Publié
+Finished: Expiré
+Disabled: Désactivé
+Create new campaign: Créer une nouvelle campagne
+Select campaign type: Sélectionnez le type de campagne
+Select event: Sélectionnez un événement
+Select offer: Sélectionner l'offre
+Push: Envoyer
+Duplicate: Dupliquer
+Name: Nom
+Add new Category: Ajouter catégories
+Edit Category: Modifier la catégorie
+Last_reviews: Derniers commentaires
+Recently_Added: Récemment ajouté
+Owner: Propriétaire
+View all stores: Voir tous les magasins
+Will end at : date d'éxpiration
+Offer price by: Prix par
+Create: Créer
+Edit offer: Modifier L'offre
+Create Event: Créer un évènement
+Drag the marker to get the exact position: Faites glisser le marqueur pour obtenir la position exacte
+Event name : Nom de l'événement
+Store : Le magasin
+Last visited: Dernière visite
+Access Role: Rôle d'accès
+Create new User: Créer un nouvel utilisateur
+Number of stores: Nombre de magasins
+Number of events monthly: Nombre d'événements mensuels
+Campaigns monthly: Campagnes mensuelles
+Number of offers monthly: Nombre d'offres mensuelles
+Username: Nom d'utilisateur
+Password: Mot de passe
+Confirm Password : Confirmez le mot de passe
+Phone Number: Numéro de téléphone
+User configuration: Configuration de l'utilisateur
+Are you sure?: Vous êtes sur?
+View_all_stores : Voir tous les Boutiques
+Title : Titre
+config_sidebar: Configuration
+Type campaign : Campagne type
+Create new : Créer un nouveau
+Edit : Modifier
+
+
+
+#Form validation messages
+Access denied : Accès refusé
+Sorry you don't have permission to do it : Désolé, vous n'avez pas la permission de le faire
+User not created  !!  : Utilisateur non créé !!
+You don't have an account . could you please create it !!  : Vous n'avez pas de compte. pourriez-vous s'il vous plaît le créer !!
+Store already exist  : Magasin existe déjà
+Login invalid   : Login invalide
+Empty login  : Login vide
+Empty password  : Mot de passe vide
+Check your confirm password  : vérifiez votre mot de passe de confirmation
+Sorry your account is locked !!  : Désolé, votre compte est verrouillé !!
+Auth error : Erreur d'authentification
+user not found : Utilisateur non trouvé
+Username is invalid or already exist! : Le nom d'utilisateur est invalide ou existe déjà!
+This name is already exist : Ce nom existe déjà
+username is empty : le nom d'utilisateur existe déja
+Empty Address  : Adresse est vide
+User not logged in : Utilisateur n'est pas authentifié
+Your mail is  not valid : Votre mail est invalide
+Your mail is empty : Votre mail est vide
+Miss authentication to access this page : Authentification requise pour y acceder à cette page
+this username or email is already exist : ce nom d'utilisateur ou e-mail existe déjà
+You dont have the access to delete this post : Vous n'avez pas le droit pour supprimer ce post
+user not selected : utilisateur non sélectionné
+username field is empty : Le champ Nom d'utilisateur est vide
+username field is invalid : Le champ du nom d'utilisateur est invalide
+forgot password : mot de passe oublié
+missing mac address : adresse mac manquante
+Invalid mac_address : Adresse mac invalide
+Store_id is messing : Store_id  manquant
+Store name is empty : Le nom du magasin est vide
+Store name is not valid  : Le nom du magasin n'est pas valide
+Store address is empty : L'adresse du magasin est vide
+Phone number is empty !! : Le numéro de téléphone est vide !!
+Phone number is invalid !! : Le numéro de téléphone est invalide !!
+store already : store already
+Category is not set  : La catégorie n'est pas définie
+Store not created  !!  : Magasin non créé !!
+location not found !!  : Emplacement non trouvé !!
+Store not specified !! : Magasin non spécifié !!
+You should delete all  stores from this category !! : Vous devriez supprimer tous les magasins de cette catégorie !!
+Category not found !! : Catégorie non trouvée !!
+Category is empty  !! : Catégorie est vide !!
+Category name should no be empty !! : Le nom de la catégorie ne doit pas être vide !!
+Invalid event name : Nom d'événement incorrect
+Invalid description : Invalid description
+description is empty : Description invalide
+Invalid phone number : Numéro de téléphone invalide
+Address is empty : L'adresse est vide
+Name is empty : Le nom est vide
+date begin format not valid ! : Le format de date de début n'est pas valide
+date end format not valid ! : Le format de date de fin n'est pas valide
+Enter a valid URL !! : Entrez une URL valide !!
+your position  is not found ! : votre position n'est pas trouvée!
+This name is already exist !!   : Ce nom existe déjà !!
+event  not created  !!  : Événement non créé !!
+event  not found  !!  : Événement non trouvé !!
+Event not specified !! : Événement non spécifié !!
+no message to send  : aucun message à envoyer
+This operation is denied in demo mode : Cette opération est refusée en mode démo
+You don't have permission to do it! :  Vous n'avez pas la permission d'exécuter ce traitement !
+You have exceeded the maximum number of events : Vous avez dépassé le nombre maximum d'événements
+You have exceeded the maximum number of campaigns : Vous avez dépassé le nombre maximal de campagnes
+You have exceeded the maximum number of stores : Vous avez dépassé le nombre maximum de magasins
+Status not found : Statut non trouvé
+This currency is already exist  : Cette monnaie existe déjà
+Please_select_store : Veuillez sélectionner un magasin
+mail_verification : mail de vérification
+Type is not valid : Le type n'est pas valide
+This currency is already exist  : Le devise n'existe pas
+Campaign name is empty : Le nom de la campagne est vide
+Something wrong  : Quelque chose ne va pas
+Register id errors : Enregistrer les erreurs d'ID
+Date of begin is not valid  : La date de début n'est pas valide
+Offer id is messing : L'identifiant de l'offre est manquant
+Store id is not valid : L'identifiant du magasin n'est pas valide
+Password is not valid : Le mot de passe n'est pas valide
+Token isn t valid : Token n'est pas valide
+The password must be at least 6 characters : Le mot de passe doit comporter au moins 6 caractères
+Reset error : Erreur de réinitialisation
+Your login not exist or you have exceeded the limit of sending : Votre login n'existe pas ou vous avez dépassé la limite d'envoi
+Error (SenderId isn't valid!) : Erreur (l'identifiant de l'expéditeur n'est pas valide!)
+login or password are not valid  : login ou mot de passe ne sont pas valides
+Name field is empty : Le champ Nom est vide
+Your email address is already existing !! : Votre adresse e-mail existe déjà !!
+
+
+
+Add new category: Ajouter Catégorie
+It's a category: C'est un catégorie
+Delete : delete
+Edit : Edit
+reviews : Avis
+Select offer currency : Sélectionnez la devise de l'offre
+Offer percent : Offre pourcentage
+Make it as featured : Mettre  en recommandé
+Disabled Featured : Déactiver l'option recommandé
+Featured : Recommandé
+Pseudo or Mail : Pseudo ou Mail
+Enter your email : Entrez votre mail
+Full name : nom complet
+#Categories : ( put all your categories here )
+Fast-Food  : prêt-à-manger
+
+#version 1.4.2
+To test the campaign in debug mode, you must be sure that at least one shop, event or offer is created : Pour tester la campagne en mode débogage, vous devez vous assurer qu'au moins un magasin, un événement ou une offre est créé.
+Select campaign type : Selectionner le type du campagnes
+
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.
+
+
+
+

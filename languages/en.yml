@@ -1,0 +1,405 @@
+#Configuration
+config:
+    name: English
+    version: 1.0
+
+#key            #value
+Hello : Hello
+Welcome : Welcome
+
+#Login page
+Login : Login
+Login_error : Login error
+Error : Error
+Canceled : Canceled
+Completed : Completed
+FORGET PASSWORD  : FORGET PASSWORD
+dont_have_account : Don't have account ?
+Forgot_Password : Forgot Password
+Login_seccessfully  : you are successfully connected
+
+
+#DASHBAORD
+Total_Stores : Total Stores
+Total_Events : Total Events
+Total_Customers : Total Customers
+Total_Campaigns : Total Campaigns
+Overview: Overview
+Recently_Added : Recently Added
+Last_reviews  : Last reviews
+View_all_stores : View all stores
+
+#Menu items
+Home : HOME
+Offers : Offers
+Manage Events : Manage Events
+Manage Customers : Manage Customers
+Manage Places:Manage Places
+All Places:All Places
+Categories : Categories
+Compaigns : Compaigns
+Application : Application
+Events : Events
+Add_new : Add New
+All_stores : All stores
+All Offers : All Offers
+My_stores : My stores
+All Campaigns : All Campaigns
+My campaigns : My campaigns
+Pushed : Pushed
+Completed : Completed
+Campaigns (No-valid) : Campaigns (No-valid)
+Campaigns : Campaigns
+All Campaigns : All Campaigns
+Add new Place: Add new Place
+Place name: Place Name
+Place Ar Name: Place Ar Name
+Place Latitude: Place Latitude 
+Place Longitude: Place Longitude
+AR Name: AR Name
+Latitude: Latitude
+Longitude: Longitude
+Event AR name : Event AR name
+Description AR: Description AR
+
+#Frontend App
+Description_app : NEARBYSTORES is an innovative local business search app with an intelligent search functionality that can help you find different businesses in an area easily.  It has a powerful store locator admin that allows you to manage stores, categories, notification, business owner, events and offers
+Setup_easy_desc : No coding , Easier and faster  Setup using configuration forms
+Advanced_setting_desc : Simplified settings, full control of the app ( logo, name , access limitations  , raduis , notification , Currencies ... )
+Make_business_desc  : Increase your business conversion with this app
+Beautiful_ui :  Beautiful Cards , animations and notifications that shows you what's important around you
+Cutomize_app_desc  :  It does not require any programming skills , the app is easy to configure and customize .
+Chat_desc : You can chat with your neighbours and the businesses owners without limit , just login to the app enable your GPS then you will get all  the important people   .
+Gps_des : The NEARBYSTORES is based on your position to give you all interesting things near by , so don't forget to enable GPS before using the app .
+Keep_it_controle : The dashboard gives you full visibility of the use of the application. graphs and tables are present to give you a better traceability .
+Push_offers : Send push notifications to your customer with one click to inform them of new offers next to them , more you can organize your content into a campaign and push it directly to your users .
+Manage_customers :  As an administrator you have the right to manage your customers and their stores , depending on the type of subscription you offer you can restrict the rights to users .
+Support_multi_language :  You can switch to your favorite lanquage with a simple click .
+Advanced_dashboard_desc : Stay always informed about your solution thanks to a beautiful dashboard .
+Nearby_stores_features : Nearbystores is built-in with exact geo location which allows your customers to route and get to your store outlets the easiest way.
+Contact_us_desc : We provide fast and reliable support to our customers, whether its an inquiry, troubleshooting, customization and special requests. If you need help with installation, just send us a message form this form .
+you_dont_have_permission: You don't have permission to run this query , please  try later!
+Are you sure?: Are you sure?
+Are you sure you want to delete it : Are you sure you want to delete it
+
+
+#configuration
+Customer_can_publish_own_event_auto: Customer can publish his own event without admin confirmation
+Number_campaigns_max_monthly: Number campaigns max monthly
+Number items per page: Items allowed per page
+Number stores per page: Stores allowed per page
+Download app: Download app
+Dashboard Color : Dashboard Color
+Upload limitation : Upload limitation
+Back-office_logo: dashboard logo
+Crypto_key: Crypto key
+Enable Offer: Enable offer
+Enable Event: Enable event
+Default_language: Default language
+User subscription : User subscription
+Campaign config : Campaign config
+Welcome message : Welcome message
+Optional field : Optional field
+Dashboard analytics :  Dashboard analytics
+Enable Messages From Dashboard : Enable Messages From Dashboard
+Allow dashboard messenger to owners : Allow dashboard messenger to owners
+Enable chat with firebase :  Enable chat with firebase
+Should be enabled from app client : Should be enabled from app client
+Number_max_of_stores : Stores allowed
+Number_events_max_monthly : Events allowed per mounth
+Number campaigns max monthly :  campaigns allowed per mounth
+Number_offers_max_monthly : Offers allowed per mounth
+Email_verificaion : Email verification
+User_config : User config
+App_name : App name
+Default_email : Default email
+Back-office_ logo : Back-office logo
+Dashborad_config : Dashborad config
+Number_items_per_page : Number items per page
+Copy_this_key_your_android_res : Copy this key in your android resource file "app_config.xml"
+Number_stores_per_page : Number stores per page
+Enable_store : Enable store
+Customer_can_publish_own_store_auto : The customer can publish his own store without admin confirmation
+Default_timezone : Default timezone
+Default _anguage : Default language
+Add_new_currency : Add new currency
+Language : Language
+Without_validation_by_admin : Without validation by admin
+Push_campaign_auto : Push campaign auto
+Target_raduis : Targeting diameter (km)
+Number_max_pushes_per_campaign : Pushes allowed per campaign
+Use_campaign_with_crontab : Use campaign with crontab
+you_can_push_10_campaigns_for_every_10_minutes :  you can push 10 campaigns for every 10 minutes
+Add_this_url_in_cronTab_in_your_cpanel  : Add this url in cronTab in your cpanel
+Number_max_pushes_per_campaign_with_cronjob_in_every_execute : Pushes allowed per campaign with crontab for each run
+Messages Config : Messages Config
+
+#Messages
+We could not find the page you were looking for : We could not find the page you were looking for
+Meanwhile, you may : Meanwhile, you may
+Meanwhile, you may : Meanwhile, you may
+return to the home page : return to the home page
+or try using the search form : or try using the search form
+Are you sure that you want to delete this store : Are you sure that you want to delete this Store
+Are you sure that you want to delete this Event : Are you sure that you want to delete this Event
+Are you sure that you want to delete this user :  Are you sure that you want to delete this User
+The installation folder represents a danger : The installation folder represents a danger
+Please remove install directory  : Please remove the installation folder
+Account without verification! : Account without verification!
+We've sent mail verification to your mailbox. : We've a  sent mail verification to your mailbox.
+Delete_confirmation : Are you sure that you want to delete this store !!
+
+
+#Compaign
+Alert_compaign : Push events , offers or new stores to your close users .
+Type campaign : Campaign's type
+No Campaigns : No Campaigns
+Offer is expired : Offer is expired
+That offer will  expired in  : That offer will  expired in
+Edit offer : Edit offer
+This campaign will be displayed to %s customers within %s KM : This campaign will be displayed to %1$s customers within %2$s KM
+Are you sur to duplicate this campaign ? : Are you sur to duplicate this campaign ?
+
+
+#Global
+Telephone : Telephone
+Action  : Action
+Rating  : Rating
+Allow : Allow
+Deny : Deny
+Your account has created  : Your account has created
+Success  : Success
+No data found  : No data found
+Enter your email : Enter your email
+Title : Title
+Reset  :  Reset
+Connect : Connect
+Pending : Pending
+App name : App name
+Symbol : Symbol
+Cancel  : Cancel
+Format : Format
+Name : Name
+config_sidebar:  Configuration
+MENU: MENU
+All Events: All events
+My events: My events
+All Compaigns: All Compaigns
+My Compaigns: My Compaigns
+Search : Search
+Enabled: Enabled
+Create your store: Create your store
+Detail: Detail
+Add new offer: Add new offer
+Date Begin: Date Begin
+Date End: Date End
+Offer: Offer
+Published: Published
+Finished: Finished
+Disabled: Disabled
+Create new campaign: Create new campaign
+Select campaign type: Select campaign type
+Select event: Select event
+Select offer: Select offer
+Push: Push
+Duplicate: Duplicate
+Create: Create
+Role Type  :  Role type
+View all stores: View all stores
+Owner: Owner
+Store: Store
+Campaigns : Campaigns
+Send password : Send password
+We've sent new password to your mailbox : We've sent new password to your mailbox
+Profile  : Profile
+Logout  : Logout
+Add : Add
+Toggle navigation : Toggle navigation
+Save : Save
+Currencies : Currencies
+Default_currency  : Default currency
+signup : signup
+Reviews : Reviews
+Stores  : Stores
+Store : Store
+Confirm : Confirm
+Delete : Delete
+Close : Close
+Update_your_store : Update your Store
+Drag the marker to get the exact position: Drag the marker to get the exact position
+Add_new_offer : Add new offer
+Create : Create
+Clear : Clear
+Add new category : Add new category
+Edit Category: Edit Category
+Category name : Category name
+Offer percent : Offer percent
+Offer price by  : Offer price by
+Date end  : Date end
+Date begin  : Date begin
+Description : Description
+Offers :  Offers
+Targeting estimation : Targeting estimation
+Radius of  : Radius of
+Km you will target : Km you will target
+nearby guests  : nearby guests
+Will end at : Will end at
+No Offers : No Offers
+Events : Events
+Create Event : Create Event
+Name : Name
+Image: Image
+Images : Images
+Event name : Event name
+Address  : Address
+Status : Status
+Username : Username
+Email  : Email
+WebSite : WebSite
+Access Role  : Access Role
+Status  : Status
+Customers : Customers
+Type : Type
+Login : Login
+Last visited : Last visited
+No-Confirmed : Not Confirmed
+Confirmed : Confirmed
+Admin : Admin
+Owner : Owner
+Customer : Customer
+Select store  : Select store
+Number of stores :  Number of stores
+Create new User : Create new User
+Create new : Create new
+Confirm Password : Confirm Password
+Password  : Password
+Phone Number  : Phone Number
+Number of events monthly : Number of events monthly
+Campaigns monthly : number of campaigns mounthly
+Number of offers monthly  : Number of offers monthly
+Note : Note
+Confirm  : Confirm
+Store Name : Store Name
+Category : Category
+Status : Status
+User configuration: User configuration
+setup_successful : Successful Setup
+have_already_account  : Already have an account
+
+
+
+
+#Form validation messages
+Access denied : Access denied
+Sorry you don't have permission to do it : Sorry you don't have permission to do it
+User not created  !!  : User not created  !!
+You don't have an account . could you please create it !!  : You don't have an account . could you please create it !!
+Store already exist  : Store already exist
+Login invalid   : Login invalid
+Empty login  : Empty login
+Empty password  : Empty password
+Check your confirm password  : Check your confirm password
+Sorry your account is locked !!  : Sorry your account is locked !!
+Auth error : Auth error
+user not found : user not found
+Username is invalid or already exist! : Username is invalid or already exist!
+This name is already exist : This name is already exist
+username is empty : username is empty
+Empty Address  : Empty Address
+User not logged in : User not logged in
+Your mail is  not valid : Your mail is  not valid
+Your mail is empty : Your mail is empty
+Miss authentication to access this page : Miss authentication to access this page
+this username or email is already exist : this username or email is already exist
+You dont have the access to delete this post : You dont have the access to delete this post
+user not selected : user not selected
+username field is empty : username field is empty
+username field is invalid : username field is invalid
+forgot password : forgot password
+missing mac address : missing mac address
+Invalid mac_address : Invalid mac_address
+Store_id is messing : Store_id is messing
+Oops! Page not found : Oops! Page not found
+Store name is empty : Store name is empty
+Store name is not valid  : Store name is not valid
+Store address is empty : Store address is empty
+Phone number is empty !! : Phone number is empty !!
+Phone number is invalid !! : Phone number is invalid !!
+store already : store already
+Category is not set  : Category is not set
+Store not created  !!  : Store not created  !!
+location not found !!  : location not found !!
+Store not specified !! : Store not specified !!
+You should delete all  stores from this category !! : You should delete all  stores from this category !!
+Category not found !! : Category not found !!
+Category is empty  !! : Category is empty  !!
+Category name should no be empty !! : Category name should not be empty !!
+Invalid event name : Invalid event name
+Invalid description : Invalid description
+description is empty : description is empty
+Invalid phone number : Invalid phone number
+Address is empty : Address is empty
+Name is empty : Name is empty
+date begin format not valid ! : Invalid format start date !
+date end format not valid ! : Invalid end date format!
+Enter a valid URL !! : Enter a valid URL !!
+your position  is not found ! : your position  is not found !
+This name is already exist !!   : This name is already exist !!
+event  not created  !!  : event  not created  !!
+event  not found  !!  : event  not found  !!
+Event not specified !! : Event not specified !!
+no message to send  : no message to send
+This operation is denied in demo mode : This operation is denied in demo mode
+You don't have permission to do it! :  You don't have permission to do it!
+You have exceeded the maximum number of events : You have exceeded the maximum number of events
+You have exceeded the maximum number of campaigns : You have exceeded the maximum number of campaigns
+You have exceeded the maximum number of stores : You have exceeded the maximum number of stores
+Status not found : Status not found
+This currency is already exist  : This currency is already exist
+Please_select_store : Please select store
+mail_verification : mail verification
+Type is not valid : Type is not valid
+This currency is already exist  : This currency is already exist
+Campaign name is empty : Campaign name is empty
+Something wrong  : Something wrong
+Register id errors : Register id errors
+Date of begin is not valid  : Date of begin is not valid
+Offer id is messing : Offer id is messing
+Store id is not valid : Store id is not valid
+Password is not valid : Password is not valid
+Token isn t valid : Token isn t valid
+The password must be at least 6 characters : The password must be at least 6 characters
+Reset error : Reset error
+Your login not exist or you have exceeded the limit of sending : Your login does not exist or you have exceeded the sending limit
+Error (SenderId isn't valid!) : Error (SenderId isn't valid!)
+login or password are not valid  : login or password are not valid
+Name field is empty : Name field is empty
+Your email address is already existing !! : Your email address is already existing !!
+Your position is not specified or it is invalid : Your position is not specified or it is invalid
+Begin date is not valid : Begin date is not valid
+Name error : Name error
+Email error : Email error
+
+
+Test3: Test3
+All notifications are received and viewed by users : All notifications are received and viewed by users
+All notifications are pushed to closer users : All notifications are pushed to closer users
+have received the notification : have received the notification
+Delete : Delete
+reviews : reviews
+Number max pushes per campaign :  Number max pushes per campaign
+Information : Information
+Maps api key : Maps api key
+Firebase key : Firebase key
+Pseudo or Mail : Pseudo or Mail
+
+#version 1.4.2
+To test the campaign in debug mode, you must be sure that at least one shop, event or offer is created : to test the campaign in debug mode, you must be sure that at least one shop, event or offer is created
+Select campaign type  : Select campaign type
+
+
+
+######
+Please select a photo: Please select a photo
+
+DeepLinkingIntro: Deeplinks are a concept that help users navigate between the web and applications. They are basically URLs which navigate users directly to the specific content in applications.
